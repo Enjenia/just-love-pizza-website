@@ -1,0 +1,114 @@
+.joshuabartell6vvibtvl90aunspla-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.landingrectangle {
+  background: linear-gradient(180deg, #000, transparent);
+}
+.about-bg,
+.button,
+.landingrectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-red);
+  border-radius: var(--br-md);
+}
+.get-in-touch1 {
+  position: absolute;
+  height: 73.83%;
+  width: 95.16%;
+  top: 11.32%;
+  left: 2.15%;
+  font-size: var(--font-size-xs);
+  display: flex;
+  font-family: var(--font-ruda);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.contact-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 4.99%;
+  width: 9.69%;
+  top: 75.89%;
+  right: 40.31%;
+  bottom: 19.12%;
+  left: 50%;
+}
+.placeholder-image-icon {
+  position: absolute;
+  height: 65.91%;
+  width: 28.59%;
+  top: 16.1%;
+  right: 58.23%;
+  bottom: 17.98%;
+  left: 13.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  height: 83.27%;
+  width: 100%;
+  top: 16.73%;
+  left: 0;
+  display: inline-block;
+}
+.a-little-bit {
+  position: absolute;
+  width: 90.11%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.about-text,
+.about1 {
+  position: absolute;
+  height: 47.83%;
+  width: 35.52%;
+  top: 22.88%;
+  right: 14.48%;
+  bottom: 29.28%;
+  left: 50%;
+}
+.about1 {
+  height: 18.61%;
+  width: 100%;
+  top: 18.61%;
+  right: 0;
+  bottom: 62.78%;
+  left: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-rokkitt);
+}
