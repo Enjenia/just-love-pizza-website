@@ -52,7 +52,6 @@
   right: 23.18%;
   bottom: 32.33%;
   left: 23.18%;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
 }
 .jlp-final-horiz-1 {
   position: absolute;
@@ -190,4 +189,19 @@
   font-size: var(--font-size-xl);
   color: var(--color-white);
   font-family: var(--font-rokkitt);
+}
+
+@media (max-width: 400px) {
+
+	.nav {
+		display: none;
+	}
+
+	.logo {
+		height: 13%;
+		width: 70%;
+		top: 4.14%;
+		bottom: 78.43%;
+		left: 25%;
+	}
 }
