@@ -191,17 +191,17 @@
   font-family: var(--font-rokkitt);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
 	.nav {
 		display: none;
 	}
 
 	.logo {
-		height: 13%;
+		height: 15%;
 		width: 70%;
 		top: 4.14%;
 		bottom: 78.43%;
-		left: 25%;
+		left: 20%;
 	}
 }
