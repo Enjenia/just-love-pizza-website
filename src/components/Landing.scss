@@ -191,7 +191,7 @@
   font-family: var(--font-rokkitt);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 360px) {
 
 	.nav {
 		display: none;
