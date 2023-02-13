@@ -198,3 +198,74 @@
   color: var(--color-white);
   font-family: var(--font-ruda);
 }
+
+@media (max-width: 800px) {
+
+	.footer-nav {
+		display: none;
+	}
+
+	.jlp-final-horiz-2 {
+		height: 29.5%;
+		width: 52%;
+		left: 27%;
+		right: 40%;
+	}
+
+	.justlovepizzacouk,
+.justlovepizzainfogmailcom,
+.n07868017133 {
+  display: none;
+}
+
+.copyright-2022-just-container {
+  position: absolute;
+  height: 7.56%;
+  width: 65.53%;
+  top: 79.35%;
+  left: 20.21%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+}
+
+}
+
+@media (max-width: 400px) {
+
+	.footer-nav {
+		display: none;
+	}
+
+	.jlp-final-horiz-2 {
+		height: 21%;
+		width: 47%;
+		left: 30%;
+		right: 40%;
+	}
+
+	.justlovepizzacouk,
+.justlovepizzainfogmailcom,
+.n07868017133 {
+  display: none;
+}
+
+.copyright-2022-just-container {
+  position: absolute;
+  height: 7.56%;
+  width: 80.53%;
+  top: 79.35%;
+  left: 10.21%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+}
+
+}
+
