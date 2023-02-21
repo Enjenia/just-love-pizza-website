@@ -234,38 +234,30 @@
 
 }
 
-@media (max-width: 400px) {
 
-	.footer-nav {
-		display: none;
-	}
 
-	.jlp-final-horiz-2 {
-		height: 21%;
-		width: 47%;
-		left: 30%;
-		right: 40%;
-	}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-	.justlovepizzacouk,
-.justlovepizzainfogmailcom,
-.n07868017133 {
-  display: none;
 }
 
-.copyright-2022-just-container {
-  position: absolute;
-  height: 7.56%;
-  width: 80.53%;
-  top: 79.35%;
-  left: 10.21%;
-  letter-spacing: -0.01em;
-  font-weight: 500;
-  font-family: var(--font-montserrat);
-  white-space: pre-wrap;
-  display: flex;
-  align-items: center;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 }
 
