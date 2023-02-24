@@ -9,12 +9,12 @@ import "./JustLovePizzaWebsite.scss";
 const JustLovePizzaWebsite = () => {
   return (
     <div className="just-love-pizza-website">
+			<Landing />
+			<About />
+			<Services />
+			<Gallery />
+			<Contact />
       <Footer />
-      <Contact />
-      <Gallery />
-      <Services />
-      <About />
-      <Landing />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .footer-bg {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   top: 0;
@@ -8,8 +8,9 @@
   left: 0;
   background-color: var(--color-black);
 }
+
 .jlp-final-horiz-2 {
-  position: absolute;
+  position: relative;
   height: 26.95%;
   width: 12.03%;
   top: 8.56%;
@@ -22,15 +23,18 @@
   object-fit: cover;
   cursor: pointer;
 }
+
 .copyright-2022 {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
 .designed-and-developed {
   margin: 0;
 }
+
 .copyright-2022-just-container {
-  position: absolute;
+  position: relative;
   height: 7.56%;
   width: 19.53%;
   top: 79.35%;
@@ -42,8 +46,9 @@
   display: flex;
   align-items: center;
 }
+
 .footer-child {
-  position: absolute;
+  position: relative;
   height: 0.25%;
   width: 33.41%;
   top: 70.15%;
@@ -53,36 +58,42 @@
   border-top: 1px solid var(--color-white);
   box-sizing: border-box;
 }
+
 .justlovepizzacouk,
 .justlovepizzainfogmailcom,
 .n07868017133 {
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .justlovepizzainfogmailcom,
 .n07868017133 {
   height: 28.75%;
 }
+
 .n07868017133 {
   width: 42.68%;
   top: 71.25%;
   left: 57.32%;
 }
+
 .justlovepizzainfogmailcom {
   width: 99.59%;
   top: 35%;
   left: 0;
 }
+
 .justlovepizzacouk {
   height: 27.5%;
   width: 63.82%;
   top: 0;
   left: 35.37%;
 }
+
 .contacts {
-  position: absolute;
+  position: relative;
   height: 30.48%;
   width: 12.81%;
   top: 35.52%;
@@ -91,8 +102,9 @@
   left: 84.17%;
   font-size: var(--font-size-xs);
 }
+
 .gallery {
-  position: absolute;
+  position: relative;
   height: 98.81%;
   width: 18.97%;
   top: 0;
@@ -102,13 +114,15 @@
   justify-content: center;
   cursor: pointer;
 }
+
 .services-txt {
   line-break: anywhere;
   width: 100%;
 }
+
 .about,
 .services {
-  position: absolute;
+  position: relative;
   height: 98.81%;
   width: 18.97%;
   top: 0;
@@ -116,18 +130,22 @@
   align-items: center;
   cursor: pointer;
 }
+
 .services {
   left: 23.71%;
 }
+
 .about {
   left: 11.33%;
   justify-content: center;
 }
+
 .home,
 .rectangle4 {
-  position: absolute;
+  position: relative;
   left: 0;
 }
+
 .home {
   height: 98.81%;
   width: 18.97%;
@@ -137,6 +155,7 @@
   justify-content: center;
   cursor: pointer;
 }
+
 .rectangle4 {
   height: 100%;
   width: 100%;
@@ -146,8 +165,9 @@
   border-radius: var(--br-md);
   background-color: var(--color-red);
 }
+
 .contactus {
-  position: absolute;
+  position: relative;
   height: 73.83%;
   width: 95.16%;
   top: 13.39%;
@@ -160,6 +180,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .contact-footer {
   cursor: pointer;
   border: 0;
@@ -172,11 +193,13 @@
   bottom: 17.56%;
   left: 85.05%;
 }
+
 .contact-footer,
 .footer,
 .footer-nav {
-  position: absolute;
+  position: relative;
 }
+
 .footer-nav {
   height: 21.08%;
   width: 64.79%;
@@ -186,6 +209,7 @@
   left: 32.4%;
   font-size: var(--font-size-sm);
 }
+
 .footer {
   height: 6.96%;
   width: 100%;
@@ -199,8 +223,9 @@
   font-family: var(--font-ruda);
 }
 
-@media (max-width: 800px) {
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 	.footer-nav {
 		display: none;
 	}
@@ -213,32 +238,24 @@
 	}
 
 	.justlovepizzacouk,
-.justlovepizzainfogmailcom,
-.n07868017133 {
-  display: none;
-}
+	.justlovepizzainfogmailcom,
+	.n07868017133 {
+		display: none;
+	}
 
-.copyright-2022-just-container {
-  position: absolute;
-  height: 7.56%;
-  width: 65.53%;
-  top: 79.35%;
-  left: 20.21%;
-  letter-spacing: -0.01em;
-  font-weight: 500;
-  font-family: var(--font-montserrat);
-  white-space: pre-wrap;
-  display: flex;
-  align-items: center;
-}
-
-}
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
+	.copyright-2022-just-container {
+		position: relative;
+		height: 7.56%;
+		width: 65.53%;
+		top: 79.35%;
+		left: 20.21%;
+		letter-spacing: -0.01em;
+		font-weight: 500;
+		font-family: var(--font-montserrat);
+		white-space: pre-wrap;
+		display: flex;
+		align-items: center;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

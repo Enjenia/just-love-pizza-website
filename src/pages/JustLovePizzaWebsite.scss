@@ -5,3 +5,19 @@
   height: 5707px;
   overflow: hidden;
 }
+
+.button {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	width: fit-content;
+	height: fit-content;
+	font-family: var(--font-ruda);
+	font-size: var(--font-size-xs);
+  color: var(--color-white);
+  text-align: center;
+  background-color: var(--color-primary);
+	border-radius: var(--br-md);
+	border: none;
+	padding: 20px 40px;
+}
