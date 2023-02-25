@@ -3,6 +3,14 @@ import "./Gallery.scss";
 const Gallery = () => {
   return (
     <div className="gallery2">
+			      <div className="gallery-bg" data-scroll-to="galleryBg" />
+      <div className="instagram-link">
+        <img className="pizzaicon" alt="" src="../pizzaicon@2x.png" />
+        <div className="check-us-out-container">
+          {`Check us out on Instagram `}
+          <a href="https://www.instagram.com/just.love.pizza/?hl=en"><span className="justlovepizza">@justlovepizza</span></a>
+        </div>
+      </div>
       <div className="instagram">
         <img className="icon" alt="" src="../1@2x.png" />
         <img className="icon1" alt="" src="../2@2x.png" />
@@ -19,14 +27,6 @@ const Gallery = () => {
         <img className="icon12" alt="" src="../13@2x.png" />
         <img className="icon13" alt="" src="../14@2x.png" />
         <img className="icon14" alt="" src="../15@2x.png" />
-      </div>
-      <div className="gallery-bg" data-scroll-to="galleryBg" />
-      <div className="instagram-link">
-        <img className="pizzaicon" alt="" src="../pizzaicon@2x.png" />
-        <div className="check-us-out-container">
-          {`Check us out on Instagram `}
-          <a href="https://www.instagram.com/just.love.pizza/?hl=en"><span className="justlovepizza">@justlovepizza</span></a>
-        </div>
       </div>
     </div>
   );

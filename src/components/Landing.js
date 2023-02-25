@@ -60,7 +60,7 @@ const Landing = () => {
 				</nav>
 				<section className="landing-contact">
 					<button className="landing-contact-button button" onClick={onContactClick}>
-						Contact Us
+						CONTACT US
 					</button>
 				</section>
 			</header>

@@ -5,11 +5,16 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 60vh;
+	justify-content: space-around;
+	padding: 200px;
 
-	.placeholder-image {
-		width: 535px;
-		height: 688px;
+	.placeholder {
+
+		.placeholder-image {
+			width: 535px;
+			height: 670px;
+		}
 	}
 
 	.about-text {
@@ -17,6 +22,7 @@
 	  flex-direction: column;
 		color: var(--color-white);
 		font-family: var(--font-rokkitt);
+		justify-content: space-between;
 
 		.about-title {
 			width: 606px;

@@ -11,12 +11,14 @@ const About = () => {
 
   return (
     <div className="about-main">
-      <img
+      <section className="placeholder">
+				<img
         className="placeholder-image"
         alt=""
         src="../placeholderimage@2x.png"
-      />
-      <div className="about-text">
+      	/>
+			</section>
+      <section className="about-text">
 				<b className="about-title">A little bit about the business</b>
         <div className="about-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,7 +34,7 @@ const About = () => {
 				<button className="about-contact-button button">
 						GET IN TOUCH
 				</button>
-      </div>
+      </section>
     </div>
   );
 };
