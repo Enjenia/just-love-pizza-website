@@ -1,4 +1,42 @@
-.joshuabartell6vvibtvl90aunspla-icon1 {
+.about-main {
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)),url("../../public/wood-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+
+	.placeholder-image {
+		width: 535px;
+		height: 688px;
+	}
+
+	.about-text {
+		display: flex;
+	  flex-direction: column;
+		color: var(--color-white);
+		font-family: var(--font-rokkitt);
+
+		.about-title {
+			width: 606px;
+			font-size: 46px;
+		}
+
+		.about-content {
+			width: 695px;
+			font-size: 32px;
+		}
+	}
+}
+
+
+
+
+
+
+
+/*.wood-bg {
   position: relative;
   height: 100%;
   width: 100%;
@@ -11,12 +49,9 @@
   max-height: 100%;
   object-fit: cover;
 }
-.landingrectangle {
-  background: linear-gradient(180deg, #000, transparent);
-}
+
 .about-bg,
-.button,
-.landingrectangle {
+.button {
   position: relative;
   height: 100%;
   width: 100%;
@@ -32,7 +67,7 @@
   background-color: var(--color-red);
   border-radius: var(--br-md);
 }
-.get-in-touch1 {
+.get-in-touch {
   position: relative;
   height: 73.83%;
   width: 95.16%;
@@ -59,7 +94,7 @@
   bottom: 19.12%;
   left: 50%;
 }
-.placeholder-image-icon {
+.placeholder-image {
   position: relative;
   height: 65.91%;
   width: 28.59%;
@@ -72,7 +107,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.lorem-ipsum-dolor {
+.about-content {
   position: relative;
   height: 83.27%;
   width: 100%;
@@ -80,7 +115,7 @@
   left: 0;
   display: inline-block;
 }
-.a-little-bit {
+.about-title {
   position: relative;
   width: 90.11%;
   top: 0;
@@ -91,7 +126,7 @@
   text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
 }
 .about-text,
-.about1 {
+.about-main {
   position: relative;
   height: 47.83%;
   width: 35.52%;
@@ -100,7 +135,7 @@
   bottom: 29.28%;
   left: 50%;
 }
-.about1 {
+.about-main {
   height: 18.61%;
   width: 100%;
   top: 18.61%;
@@ -114,27 +149,27 @@
 }
 
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down)
 @media only screen and (max-width: 600px) {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up)
 @media only screen and (min-width: 768px) {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up)
 @media only screen and (min-width: 992px) {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
 
-}
+}*/

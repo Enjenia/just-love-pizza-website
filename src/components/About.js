@@ -10,26 +10,15 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about1">
-      <div className="about-bg">
-        <img
-          className="joshuabartell6vvibtvl90aunspla-icon1"
-          alt=""
-          src="../joshuabartell6vvibtvl90aunsplash-2@2x.png"
-        />
-        <div className="landingrectangle" data-scroll-to="landingrectangle" />
-      </div>
-      <button className="contact-button" onClick={onContactButtonClick}>
-        <button className="button" />
-        <b className="get-in-touch1">GET IN TOUCH</b>
-      </button>
+    <div className="about-main">
       <img
-        className="placeholder-image-icon"
+        className="placeholder-image"
         alt=""
         src="../placeholderimage@2x.png"
       />
       <div className="about-text">
-        <div className="lorem-ipsum-dolor">
+				<b className="about-title">A little bit about the business</b>
+        <div className="about-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -40,10 +29,14 @@ const About = () => {
           perspiciatis unde omnis iste natus error sit voluptatem accusantium
           doloremque laud
         </div>
-        <b className="a-little-bit">A little bit about the business</b>
+				<button className="about-contact-button button">
+						GET IN TOUCH
+				</button>
       </div>
     </div>
   );
 };
 
 export default About;
+
+

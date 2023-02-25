@@ -7,7 +7,7 @@ const Services = () => {
         <img
           className="joshuabartell6vvibtvl90aunspla-icon"
           alt=""
-          src="../joshuabartell6vvibtvl90aunsplash-2@2x.png"
+          src="../wood-bg.png"
         />
         <div
           className="landingrectangle-2"
