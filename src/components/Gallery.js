@@ -3,7 +3,7 @@ import "./Gallery.scss";
 const Gallery = () => {
   return (
     <div className="gallery2">
-			      <div className="gallery-bg" data-scroll-to="galleryBg" />
+			      <div className="gallery-bg" data-scroll-to="gallery" />
       <div className="instagram-link">
         <div className="gallery-title">
           {`Check us out on Instagram `}

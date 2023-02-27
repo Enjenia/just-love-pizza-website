@@ -7,13 +7,15 @@
 	background-size: cover;
 	height: 100vh;
 	justify-content: space-around;
-	padding: 200px;
+	padding-top: 150px;
+	padding-left: 200px;
+	padding-right: 200px;
 
 	.placeholder {
 
 		.placeholder-image {
 			width: 535px;
-			height: 688px;
+			height: 700px;
 		}
 	}
 
@@ -32,6 +34,11 @@
 			height: 423px;
 			width: 695px;
 			font-size: 32px;
+		}
+
+		.about-contact-button:hover {
+			cursor: pointer;
+			color: var(--color-black);
 		}
 
 	}

@@ -2,7 +2,7 @@ import "./Services.scss";
 
 const Services = () => {
   return (
-    <div className="services-main">
+    <div className="services-main" data-scroll-to="services-main">
 			<div className="our-catering-services">OUR CATERING SERVICES</div>
 
       <div className="service-cards-top">

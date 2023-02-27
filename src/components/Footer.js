@@ -2,51 +2,51 @@ import { useCallback } from "react";
 import "./Footer.scss";
 
 const Footer = () => {
-  const onJLPFINALHORIZ2Click = useCallback(() => {
+  const onFOOTERLOGOClick = useCallback(() => {
     const anchor = document.querySelector(
-      "[data-scroll-to='landingRectangle']"
+      "[data-scroll-to='landing']"
     );
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, []);
 
-  const onGalleryTextClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='galleryBg']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onServicesTextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='landingRectangle2']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onAboutTextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='landingrectangle']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onHomeTextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='landingRectangle']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onContactFooterClick = useCallback(() => {
+  const onGALLERYTextClick = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='gallery']");
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onSERVICESTextClick = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='services-main']"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onABOUTTextClick = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='about-main']"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onHOMETextClick = useCallback(() => {
+    const anchor = document.querySelector(
+      "[data-scroll-to='landing']"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+  }, []);
+
+  const onCONTACTFooterClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='contact-us']");
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
@@ -55,7 +55,7 @@ const Footer = () => {
   return (
     <div className="footer">
 			<header className="footer-header">
-				<section className="footer-logo">
+				<section className="footer-logo" onClick={onFOOTERLOGOClick}>
 					<img
 						className="footer-logo-img"
 						alt=""
@@ -63,21 +63,21 @@ const Footer = () => {
 					/>
 				</section>
 				<nav className="footer-nav">
-					<span id="footer-nav-item-home" className="footer-nav-item">
+					<span id="footer-nav-item-home" className="footer-nav-item" onClick={onHOMETextClick}>
 						HOME
 					</span>
-					<span id="footer-nav-item-about" className="footer-nav-item">
+					<span id="footer-nav-item-about" className="footer-nav-item" onClick={onABOUTTextClick}>
 						ABOUT
 					</span>
-					<span id="footer-nav-item-services" className="footer-nav-item">
+					<span id="footer-nav-item-services" className="footer-nav-item" onClick={onSERVICESTextClick}>
 						SERVICES
 					</span>
-					<span id="footer-nav-item-gallery" className="footer-nav-item">
+					<span id="footer-nav-item-gallery" className="footer-nav-item" onClick={onGALLERYTextClick}>
 						GALLERY
 					</span>
 				</nav>
 				<section className="footer-contact">
-					<button className="footer-contact-button button">
+					<button className="footer-contact-button button" onClick={onCONTACTFooterClick}>
 						CONTACT US
 					</button>
 				</section>

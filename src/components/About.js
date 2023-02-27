@@ -2,15 +2,15 @@ import { useCallback } from "react";
 import "./About.scss";
 
 const About = () => {
-  const onContactButtonClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='gallery']");
+  const onContactClick = useCallback(() => {
+    const anchor = document.querySelector("[data-scroll-to='contact-us']");
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, []);
 
   return (
-    <div className="about-main">
+    <div className="about-main" data-scroll-to="about-main">
       <section className="placeholder">
 				<img
         className="placeholder-image"
@@ -31,7 +31,7 @@ const About = () => {
           perspiciatis unde omnis iste natus error sit voluptatem accusantium
           doloremque laud
         </p>
-				<button className="about-contact-button button">
+				<button className="about-contact-button button" onClick={onContactClick}>
 						GET IN TOUCH
 				</button>
       </section>

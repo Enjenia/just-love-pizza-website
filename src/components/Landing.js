@@ -3,7 +3,7 @@ import "./Landing.scss";
 
 const Landing = () => {
   const onGALLERYTextClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='galleryBg']");
+    const anchor = document.querySelector("[data-scroll-to='gallery']");
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
@@ -11,7 +11,7 @@ const Landing = () => {
 
   const onSERVICESTextClick = useCallback(() => {
     const anchor = document.querySelector(
-      "[data-scroll-to='landingRectangle2']"
+      "[data-scroll-to='services-main']"
     );
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -20,7 +20,7 @@ const Landing = () => {
 
   const onABOUTTextClick = useCallback(() => {
     const anchor = document.querySelector(
-      "[data-scroll-to='landingrectangle']"
+      "[data-scroll-to='about-main']"
     );
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -28,14 +28,14 @@ const Landing = () => {
   }, []);
 
   const onContactClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='gallery']");
+    const anchor = document.querySelector("[data-scroll-to='contact-us']");
     if (anchor) {
       anchor.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, []);
 
   return (
-		<div className="landing">
+		<div className="landing" data-scroll-to="landing">
 			<header className="landing-header">
 				<section className="landing-logo">
 					<img
@@ -45,7 +45,7 @@ const Landing = () => {
 					/>
 				</section>
 				<nav className="landing-nav">
-					<span id="landing-nav-item-home" className="landing-nav-item">
+					<span id="landing-nav-item-home" className="landing-nav-item" data-scroll-to="landing">
 						HOME
 					</span>
 					<span id="landing-nav-item-about" className="landing-nav-item" onClick={onABOUTTextClick}>

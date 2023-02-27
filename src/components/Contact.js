@@ -2,8 +2,8 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <div className="gallery1" data-scroll-to="gallery" />
+    <div className="contact-section">
+      <div className="contact" data-scroll-to="contact-us" />
 
 		<div className="contact-main">
 			<div className="contact-body">
