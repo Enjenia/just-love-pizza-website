@@ -1,3 +1,5 @@
+@import "../../src/breakpoints.scss";
+
 .landing {
 	display: flex;
 	flex-direction: column;
@@ -6,6 +8,7 @@
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
+
 
 	.landing-header {
 		display: flex;
@@ -18,7 +21,13 @@
 
 			.landing-logo-img {
 				width: 100%;
+
+				@media (max-width: 960px) and (min-width: 960px) {
+					width: 250px;
+					padding-left: 70px;
+				}
 			}
+
 		}
 
 		.landing-nav {
@@ -33,6 +42,10 @@
 				cursor: pointer;
 				text-decoration: underline;
 			}
+
+			@media (max-width: 960px) and (min-width: 0px) {
+					display: none;
+			}
 		}
 
 		.landing-contact {
@@ -43,6 +56,10 @@
 			.landing-contact-button:hover {
 				color: var(--color-black);
 			}
+
+			@media (max-width: 960px) {
+				display: none;
+		}
 		}
 	}
 
@@ -58,39 +75,48 @@
 		.landing-body-title {
 			font-family: var(--font-rosario);
 			font-size: 48px;
+
+			@media (max-width: 480px) {
+				font-size: var(--font-size-base);
+			}
 		}
 
 		.landing-body-content {
 			font-family: var(--font-rokkitt);
 			font-size: 40px;
 			font-weight: 500;
+
+			@media (max-width: 720px) {
+				font-size: var(--font-size-sm);
+			}
 		}
+
 	}
 }
 
 
-/* Extra small devices (phones, 600px and down)
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up)
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up)
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up)
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up)
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-}*/
+}
 
