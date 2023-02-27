@@ -19,8 +19,8 @@ const About = () => {
       	/>
 			</section>
       <section className="about-text">
-				<b className="about-title">A little bit about the business</b>
-        <div className="about-content">
+				<p className="about-title">A little bit about the business</p>
+        <p className="about-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -30,7 +30,7 @@ const About = () => {
           culpa qui officia deserunt mollit anim id est laborum. Sed ut
           perspiciatis unde omnis iste natus error sit voluptatem accusantium
           doloremque laud
-        </div>
+        </p>
 				<button className="about-contact-button button">
 						GET IN TOUCH
 				</button>

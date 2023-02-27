@@ -54,14 +54,36 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="footer-bg" />
-      <img
-        className="jlp-final-horiz-2"
-        alt=""
-        src="../jlp-final-horiz-2@2x.png"
-        onClick={onJLPFINALHORIZ2Click}
-      />
-      <div className="copyright-2022-just-container">
+			<header className="footer-header">
+				<section className="footer-logo">
+					<img
+						className="footer-logo-img"
+						alt=""
+						src="../jlp-final-horiz-1@2x.png"
+					/>
+				</section>
+				<nav className="footer-nav">
+					<span id="footer-nav-item-home" className="footer-nav-item">
+						HOME
+					</span>
+					<span id="footer-nav-item-about" className="footer-nav-item">
+						ABOUT
+					</span>
+					<span id="footer-nav-item-services" className="footer-nav-item">
+						SERVICES
+					</span>
+					<span id="footer-nav-item-gallery" className="footer-nav-item">
+						GALLERY
+					</span>
+				</nav>
+				<section className="footer-contact">
+					<button className="footer-contact-button button">
+						CONTACT US
+					</button>
+				</section>
+			</header>
+
+			<div className="copyright">
         <span className="services-txt">
           <p className="copyright-2022">{`© Copyright  2022  Just Love Pizza  All Rights Reserved. `}</p>
           <p className="designed-and-developed">
@@ -69,34 +91,7 @@ const Footer = () => {
           </p>
         </span>
       </div>
-      <div className="footer-child" />
-      <div className="contacts">
-        <b className="n07868017133">07868017133</b>
-        <b className="justlovepizzainfogmailcom">
-          justlovepizza.info@gmail.com
-        </b>
-        <b className="justlovepizzacouk">justlovepizza.co.uk</b>
-      </div>
-      <div className="footer-nav">
-        <b className="gallery" onClick={onGalleryTextClick}>
-          GALLERY
-        </b>
-        <b className="services" onClick={onServicesTextClick}>
-          <span className="services-txt">
-            <p className="copyright-2022">SERVICES</p>
-          </span>
-        </b>
-        <b className="about" onClick={onAboutTextClick}>
-          ABOUT
-        </b>
-        <b className="home" onClick={onHomeTextClick}>
-          HOME
-        </b>
-        <button className="contact-footer" onClick={onContactFooterClick}>
-          <div className="rectangle4" />
-          <b className="contactus">CONTACT US</b>
-        </button>
-      </div>
+
     </div>
   );
 };
