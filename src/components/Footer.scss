@@ -10,13 +10,27 @@
 		justify-content: space-between;
 		margin: 45px 50px;
 
+		@media (max-width: 960px) and (min-width: 0px) {
+			align-self: center;
+			justify-self: center;
+	}
+
 		.footer-logo {
 			width: 400px;
+
+			@media (max-width: 960px) and (min-width: 0px) {
+				width: 200px;
+		}
 
 			.footer-logo-img {
 				width: 230px;
 				cursor: pointer;
+
+				@media (max-width: 960px) and (min-width: 0px) {
+					width: 100%;
+				}
 			}
+
 		}
 
 		.footer-nav {
@@ -31,6 +45,10 @@
 				cursor: pointer;
 				text-decoration: underline;
 			}
+
+			@media (max-width: 960px) and (min-width: 0px) {
+				display: none;
+		}
 		}
 
 		.footer-contact {
@@ -41,10 +59,15 @@
 			.footer-contact-button:hover {
 				color: var(--color-black);
 			}
+
+			@media (max-width: 960px) and (min-width: 0px) {
+				display: none;
+		}
 		}
 	}
 
-	.copyright{
+
+	.copyright {
 		display: flex;
 		flex-direction: column;
 		align-self: center;
@@ -60,284 +83,4 @@
 
 
 
-
-/*.footer-bg {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-black);
-}
-
-.jlp-final-horiz-2 {
-  position: relative;
-  height: 26.95%;
-  width: 12.03%;
-  top: 8.56%;
-  right: 84.64%;
-  bottom: 64.48%;
-  left: 3.33%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.copyright-2022 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.designed-and-developed {
-  margin: 0;
-}
-
-.copyright-2022-just-container {
-  position: relative;
-  height: 7.56%;
-  width: 19.53%;
-  top: 79.35%;
-  left: 40.21%;
-  letter-spacing: -0.01em;
-  font-weight: 500;
-  font-family: var(--font-montserrat);
-  white-space: pre-wrap;
-  display: flex;
-  align-items: center;
-}
-
-.footer-child {
-  position: relative;
-  height: 0.25%;
-  width: 33.41%;
-  top: 70.15%;
-  right: 33.29%;
-  bottom: 29.6%;
-  left: 33.31%;
-  border-top: 1px solid var(--color-white);
-  box-sizing: border-box;
-}
-
-.justlovepizzacouk,
-.justlovepizzainfogmailcom,
-.n07868017133 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.justlovepizzainfogmailcom,
-.n07868017133 {
-  height: 28.75%;
-}
-
-.n07868017133 {
-  width: 42.68%;
-  top: 71.25%;
-  left: 57.32%;
-}
-
-.justlovepizzainfogmailcom {
-  width: 99.59%;
-  top: 35%;
-  left: 0;
-}
-
-.justlovepizzacouk {
-  height: 27.5%;
-  width: 63.82%;
-  top: 0;
-  left: 35.37%;
-}
-
-.contacts {
-  position: relative;
-  height: 30.48%;
-  width: 12.81%;
-  top: 35.52%;
-  right: 3.02%;
-  bottom: 34.01%;
-  left: 84.17%;
-  font-size: var(--font-size-xs);
-}
-
-.gallery {
-  position: relative;
-  height: 98.81%;
-  width: 18.97%;
-  top: 0;
-  left: 35.77%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.services-txt {
-  line-break: anywhere;
-  width: 100%;
-}
-
-.about,
-.services {
-  position: relative;
-  height: 98.81%;
-  width: 18.97%;
-  top: 0;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.services {
-  left: 23.71%;
-}
-
-.about {
-  left: 11.33%;
-  justify-content: center;
-}
-
-.home,
-.rectangle4 {
-  position: relative;
-  left: 0;
-}
-
-.home {
-  height: 98.81%;
-  width: 18.97%;
-  top: 1.19%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.rectangle4 {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: var(--br-md);
-  background-color: var(--color-red);
-}
-
-.contactus {
-  position: relative;
-  height: 73.83%;
-  width: 95.16%;
-  top: 13.39%;
-  left: 2.42%;
-  font-size: var(--font-size-xs);
-  display: flex;
-  font-family: var(--font-ruda);
-  color: var(--color-white);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-footer {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  height: 66.91%;
-  width: 14.95%;
-  top: 15.53%;
-  right: 0;
-  bottom: 17.56%;
-  left: 85.05%;
-}
-
-.contact-footer,
-.footer,
-.footer-nav {
-  position: relative;
-}
-
-.footer-nav {
-  height: 21.08%;
-  width: 64.79%;
-  top: 8.56%;
-  right: 2.81%;
-  bottom: 70.35%;
-  left: 32.4%;
-  font-size: var(--font-size-sm);
-}
-
-.footer {
-  height: 6.96%;
-  width: 100%;
-  top: 93.04%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  font-size: var(--font-size-2xs);
-  color: var(--color-white);
-  font-family: var(--font-ruda);
-}
-
-
-/* Extra small devices (phones, 600px and down) */
-/*@media only screen and (max-width: 600px) {
-	.footer-nav {
-		display: none;
-	}
-
-	.jlp-final-horiz-2 {
-		height: 29.5%;
-		width: 52%;
-		left: 27%;
-		right: 40%;
-	}
-
-	.justlovepizzacouk,
-	.justlovepizzainfogmailcom,
-	.n07868017133 {
-		display: none;
-	}
-
-	.copyright-2022-just-container {
-		position: relative;
-		height: 7.56%;
-		width: 65.53%;
-		top: 79.35%;
-		left: 20.21%;
-		letter-spacing: -0.01em;
-		font-weight: 500;
-		font-family: var(--font-montserrat);
-		white-space: pre-wrap;
-		display: flex;
-		align-items: center;
-	}
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
 
