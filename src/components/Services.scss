@@ -5,10 +5,14 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 1085px;
 	font-family: var(--font-rokkitt);
 	color: var(--color-white);
 	justify-content: space-evenly;
+
+	@media (max-width: 960px) {
+		height: 800px;
+	}
 
 	.our-catering-services {
 		font-size: var(--font-size-xl);

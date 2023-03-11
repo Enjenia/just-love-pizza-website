@@ -1,6 +1,10 @@
 .gallery-main {
 	height: 1085px;
 
+	@media (max-width: 960px) {
+		height: 800px;
+	}
+
 .instagram-link {
 	display: flex;
 	flex-direction: row;
