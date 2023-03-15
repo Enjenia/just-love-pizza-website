@@ -22,9 +22,7 @@
 		padding-right: 200px;
 	}
 
-	@media (max-width: 960px) {
-		display: flex;
-		flex-direction: column;
+	@media (max-width: 1200px) {
 		height: 1000px;
 		align-self: center;
 		justify-self: center;
@@ -34,6 +32,8 @@
 	}
 
 	@media (max-width: 600px) {
+		display: flex;
+		flex-direction: column;
 		padding-top: 100px;
 		padding-left: 120px;
 		padding-right: 200px;
@@ -45,9 +45,10 @@
 			width: 535px;
 			height: 700px;
 
-			@media (max-width: 960px) and (min-width: 600px) {
+			@media (max-width: 1200px) and (min-width: 600px) {
 				width: 400px;
 				height: 500px;
+				padding-left: 120px;
 			}
 
 			@media (max-width: 600px) {
@@ -64,10 +65,15 @@
 	  flex-direction: column;
 		color: var(--color-white);
 		font-family: var(--font-rokkitt);
+		padding-left: 100px;
 
 		.about-title {
 			width: 606px;
 			font-size: 46px;
+
+			@media (max-width: 120px) {
+				font-size: var(--font-size-sm);
+			}
 
 			@media (max-width: 960px) {
 				font-size: var(--font-size-sm);
@@ -79,9 +85,9 @@
 			width: 695px;
 			font-size: 32px;
 
-			@media (max-width: 960px) {
-				font-size: var(--font-size-xs);
-				width: 280px;
+			@media (max-width: 1200px) {
+				font-size: var(--font-size-sm);
+				width: 500px;
 			}
 
 			@media (max-width: 600px) {
@@ -92,7 +98,7 @@
 
 		.about-contact-button {
 
-			@media (max-width: 600px) {
+			@media (max-width: 1200px) {
 				display: none;
 			}
 
