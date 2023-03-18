@@ -9,35 +9,22 @@
 	justify-content: space-around;
 	padding: 150px;
 
-	@media (max-width: 960px) and (min-width: 500px) {
-		display: flex;
-		flex-direction: column;
-	}
 
 	.placeholder {
 
 		.placeholder-image {
 			width: 100%;
 			height: 700px;
-
-			@media (max-width: 960px) {
-				display: flex;
-				flex-direction: column;
-				height: 500px;
-			}
-
-			@media (max-width: 1200px) and (min-width: 600px) {
-				width: 400px;
-				height: 500px;
-			}
-
-			@media (max-width: 600px) {
-				width: 300px;
-				height: 400px;
-			}
-
-
 		}
+
+		@media (max-width: 1570px) and (min-width: 500px) {
+			display: none;
+		}
+
+		@media (max-width: 500px) {
+			width: 310px;
+		}
+
 	}
 
 	.about-text {
@@ -50,12 +37,13 @@
 			width: 606px;
 			font-size: 46px;
 
-			@media (max-width: 120px) {
-				font-size: var(--font-size-sm);
+			@media (max-width: 800px) {
+				font-size: 32px;
+				width: 400px;
 			}
 
-			@media (max-width: 960px) {
-				font-size: var(--font-size-sm);
+			@media (max-width: 500px) {
+				font-size: 24px;
 			}
 		}
 
@@ -64,21 +52,20 @@
 			width: 695px;
 			font-size: 32px;
 
-			@media (max-width: 1200px) {
-				font-size: var(--font-size-sm);
-				width: 500px;
+			@media (max-width: 800px) {
+				font-size: 24px;
+				width: 400px;
 			}
 
-			@media (max-width: 600px) {
-				font-size: 20px;
-				width: 280px;
+			@media (max-width: 500px) {
+				font-size: 18px;
+				width: 300px;
 			}
 		}
 
 		.about-contact-button {
-
-			@media (max-width: 1200px) {
-				display: none;
+			@media (max-width: 800px) and (min-width: 500px) {
+				padding-left: 50px;
 			}
 
 		.about-contact-button:hover {
