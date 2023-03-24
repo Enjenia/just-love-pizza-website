@@ -25,6 +25,7 @@
 			width: 310px;
 		}
 
+
 	}
 
 	.about-text {
@@ -32,6 +33,7 @@
 	  flex-direction: column;
 		color: var(--color-white);
 		font-family: var(--font-rokkitt);
+		padding-left: 75px;
 
 		.about-title {
 			width: 606px;
@@ -42,7 +44,7 @@
 				width: 400px;
 			}
 
-			@media (max-width: 500px) {
+			@media (max-width: 500px) and (min-width: 0px){
 				font-size: 24px;
 			}
 		}
@@ -64,9 +66,6 @@
 		}
 
 		.about-contact-button {
-			@media (max-width: 800px) and (min-width: 500px) {
-				padding-left: 50px;
-			}
 
 		.about-contact-button:hover {
 			cursor: pointer;

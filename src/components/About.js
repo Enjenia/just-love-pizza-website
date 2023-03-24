@@ -11,13 +11,6 @@ const About = () => {
 
   return (
     <div className="about-main" data-scroll-to="about-main">
-      <section className="placeholder">
-				<img
-        className="placeholder-image"
-        alt=""
-        src="../placeholderimage@2x.png"
-      	/>
-			</section>
       <section className="about-text">
 				<p className="about-title">A little bit about the business</p>
         <p className="about-content">
@@ -35,6 +28,13 @@ const About = () => {
 						GET IN TOUCH
 				</button>
       </section>
+			<section className="placeholder">
+				<img
+        className="placeholder-image"
+        alt=""
+        src="../placeholderimage@2x.png"
+      	/>
+			</section>
     </div>
   );
 };
