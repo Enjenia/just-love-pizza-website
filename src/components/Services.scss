@@ -5,24 +5,30 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 1000px;
+	height: fit-content;
+	min-height: 1085px;
 	font-family: var(--font-rokkitt);
 	color: var(--color-white);
-	justify-content: space-evenly;
+	gap: 3em;
+	padding: 2em;
 
 
 	.our-catering-services {
 		font-size: var(--font-size-xl);
 		align-self: center;
 		justify-self: center;
+		text-align: center;
 	}
 
-	.service-cards-top {
+	.service-cards {
 		display: flex;
 	  flex-direction: row;
+		justify-content: center;
+		gap: 2em;
 		align-self: center;
-		justify-content: space-between;
-		width: 1454px;
+		flex-wrap: wrap;
+		max-width: 1454px;
+		min-height: 700px;
 
 		.engagement-parties-card {
 			width: 307px;
@@ -95,14 +101,6 @@
 				font-size: var(--font-size-2xl);
 			}
 		}
-	}
-
-	.service-cards-bottom {
-		display: flex;
-	  flex-direction: row;
-		align-self: center;
-		justify-content: space-between;
-		width: 1454px;
 
 		.artisan-market-card {
 			width: 307px;

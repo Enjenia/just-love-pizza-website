@@ -5,7 +5,7 @@ const Services = () => {
     <div className="services-main" data-scroll-to="services-main">
 			<div className="our-catering-services">OUR CATERING SERVICES</div>
 
-      <div className="service-cards-top">
+      <div className="service-cards">
 
         <div className="engagement-parties-card">
           <div className="engagement-parties">ENGAGEMENT PARTIES</div>
@@ -22,10 +22,6 @@ const Services = () => {
         <div className="birthdays-card">
           <div className="birthdays">BIRTHDAYS</div>
         </div>
-			</div>
-
-			<div className="service-cards-bottom">
-
 			<div className="family-events-card">
           <div className="family-events">FAMILY EVENTS</div>
         </div>
@@ -41,7 +37,7 @@ const Services = () => {
           <div className="weddings">WEDDINGS</div>
         </div>
       </div>
-    </div>
+			</div>
   );
 };
 
