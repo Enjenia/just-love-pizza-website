@@ -102,14 +102,15 @@
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				inline-size: 300px;
+				inline-size: 400px;
 				overflow-wrap: break-word;
 				line-height: 35px;
 				font-size: var(--font-size-sm);
 			}
 
 			@media (max-width: 500px) {
-				font-size: var(--font-size-xs);
+				font-size: var(--font-size-sm);
+				inline-size: 300px;
 			}
 		}
 

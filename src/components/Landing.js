@@ -67,7 +67,7 @@ const Landing = () => {
 
 			<section className="landing-body">
 				<h1 className="landing-body-title">Welcome to Just Love Pizza</h1>
-				<h2 className="landing-body-content">We are a pizza trailer service that caters Weddings, Birthday Parties, Family Events, Corporate Events, Artisan Markets and more!</h2>
+				<p className="landing-body-content">We are a pizza trailer service that caters Weddings, Birthday Parties, Family Events, Corporate Events, Artisan Markets and more!</p>
 			</section>
 		</div>
 
