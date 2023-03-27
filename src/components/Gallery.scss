@@ -1,9 +1,5 @@
 .gallery-main {
-	height: 1085px;
-
-	@media (max-width: 960px) {
-		height: 800px;
-	}
+	height: fit-content;
 
 .instagram-link {
 	display: flex;
@@ -25,8 +21,9 @@
 .instagram-gallery {
 	display: flex;
 	flex-direction: row;
-	gap: 15px;
+	gap: 2em;
 	justify-content: center;
+	flex-wrap: wrap;
 
 .instagram-first-column {
 	display: flex;
