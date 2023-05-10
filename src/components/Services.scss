@@ -12,7 +12,6 @@
 	gap: 3em;
 	padding: 2em;
 
-
 	.our-catering-services {
 		font-size: var(--font-size-xl);
 		align-self: center;
@@ -39,13 +38,23 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+							@media (max-width: 800px) {
+									width: 150px;
+									height: 150px;
+								}
+
+
 			.engagement-parties {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
+
 		}
 
 		.bridal-shower-card {
@@ -57,12 +66,20 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.bridal-shower {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -75,12 +92,20 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.popup-events {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -93,12 +118,20 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.birthdays {
 				padding-top: 120px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -111,12 +144,20 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.artisan-markets {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -129,12 +170,20 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.corporate-events {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -147,12 +196,21 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.weddings {
 				padding-top: 120px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+
+				@media (max-width: 800px) {
+						font-size: 15px;
+					}
 			}
 		}
 
@@ -165,14 +223,26 @@
 			border-radius: 10px;
 			border: 3px solid #555;
 
+			@media (max-width: 800px) {
+					width: 150px;
+					height: 150px;
+				}
+
 			.family-events {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
 				font-size: var(--font-size-2xl);
+
+				@media (max-width: 800px) {
+					font-size: 15px;
+				}
 			}
 		}
 	}
 }
+
+
+
 
