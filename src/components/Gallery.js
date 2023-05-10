@@ -15,28 +15,28 @@ const Gallery = () => {
 			</div>
 			<div className="instagram-gallery">
 				<div className="instagram-first-column">
-					<img className="icon" alt="" src="../1@2x.png" />
-					<img className="icon1" alt="" src="../2@2x.png" />
+					<img className="icon" alt="" src="../car.jpg" />
+					<img className="icon1" alt="" src="../dough.jpg" />
 				</div>
 
 				<div className="instagram-second-column">
-					<img className="icon3" alt="" src="../4@2x.png" />
-					<img className="icon4" alt="" src="../5@2x.png" />
+					<img className="icon3" alt="" src="../fire.jpg" />
+					<img className="icon4" alt="" src="../inside.jpg" />
 				</div>
 
 				<div className="instagram-third-column">
-					<img className="icon6" alt="" src="../7@2x.png" />
-					<img className="icon7" alt="" src="../8@2x.png" />
+					<img className="icon6" alt="" src="../jules.jpg" />
+					<img className="icon7" alt="" src="../darkfire.jpg" />
 				</div>
 
 				<div className="instagram-fourth-column">
-					<img className="icon9" alt="" src="../10@2x.png" />
-					<img className="icon10" alt="" src="../11@2x.png" />
+					<img className="icon9" alt="" src="../lew2.jpg" />
+					<img className="icon10" alt="" src="../open.jpg" />
 				</div>
 
 				<div className="instagram-fifth-column">
-					<img className="icon12" alt="" src="../13@2x.png" />
-					<img className="icon13" alt="" src="../14@2x.png" />
+					<img className="icon12" alt="" src="../shelter.jpg" />
+					<img className="icon13" alt="" src="../oven.jpg" />
 				</div>
 			</div>
 		</div>
