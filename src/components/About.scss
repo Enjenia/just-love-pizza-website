@@ -24,8 +24,10 @@
 		font-family: var(--font-rokkitt);
 		max-width: 1531px;
 
-		.about-title {
-			width: 900px;
+		h1 {
+			display: flex;
+			justify-content: flex-end;
+			width: 1400px;
 			font-size: 46px;
 
 			@media (max-width: 800px) {
@@ -36,66 +38,40 @@
 			@media (max-width: 500px) and (min-width: 0px){
 				font-size: 24px;
 			}
+
 		}
 
-		.julie-paragraphs {
+		.julie-text {
 			display: flex;
 			flex-direction: row;
-			font-size: 28px;
-
-			.julie {
-				padding-right: 2rem;
-			}
-
-			.p1,.p2,.p3{
-				width: 937px;
-			}
-
-			@media (max-width: 1570px) and (min-width: 500px) {
-				display: flex;
-				flex-direction: column;
-				font-size: 24px;
-				text-align: justify;
-
-			}
-
-			@media (max-width: 500px) {
-				font-size: 18px;
-			}
 		}
 
-		.middle {
+		.txt-j {
 			display: flex;
-			flex-direction: row;
-			font-size: 28px;
-
-			@media (max-width: 1570px) and (min-width: 500px) {
-				font-size: 24px;
-				text-align: justify;
-			}
-
-			@media (max-width: 500px) {
-				font-size: 18px;
-			}
+			flex-direction: column;
+			max-width: 937px;
 		}
 
-		.lewis-paragraphs {
+		.lewis-text {
 			display: flex;
 			flex-direction: row;
-			font-size: 28px;
+		}
 
-			.p5, .p6 {
-				max-width: 994px;
-			}
+		.txt {
+			display: flex;
+			flex-direction: column;
+			max-width: 937px;
+		}
 
-			@media (max-width: 1570px) and (min-width: 500px) {
-				font-size: 24px;
-				text-align: justify;
-			}
 
-			@media (max-width: 500px) {
-				font-size: 18px;
-			}
+		.julie {
+			max-width: 535px;
+			min-width: 250px;
+		}
+
+		.lewis {
+			max-width: 535px;
+			min-width: 250px;
 		}
 
 		.about-contact-button button {
