@@ -1,99 +1,89 @@
-import { useCallback } from "react";
-import "./Footer.scss";
+import React, { useCallback } from 'react';
+import './Footer.scss';
 
 const Footer = () => {
-  const onFOOTERLOGOClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='landing']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
+	const handleClick = useCallback((location) => {
+		const anchor = document.querySelector(`[data-scroll-to='${location}']`);
+		if (anchor) {
+			anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
+		}
+	}, []);
 
-  const onGALLERYTextClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='gallery']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
+	const handleKeyDown = (e, location) => {
+		if (e.keyCode === 13) {
+			handleClick(location);
+		}
+	};
 
-  const onSERVICESTextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='services-main']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onABOUTTextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='about-main']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onHOMETextClick = useCallback(() => {
-    const anchor = document.querySelector(
-      "[data-scroll-to='landing']"
-    );
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  const onCONTACTFooterClick = useCallback(() => {
-    const anchor = document.querySelector("[data-scroll-to='contact-us']");
-    if (anchor) {
-      anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-    }
-  }, []);
-
-  return (
-    <div className="footer">
-			<header className="footer-header">
-				<section className="footer-logo" onClick={onFOOTERLOGOClick}>
-					<img
-						className="footer-logo-img"
-						alt=""
-						src="../jlp-final-horiz-1@2x.png"
-					/>
+	return (
+		<div className='footer'>
+			<header className='footer-header'>
+				<section
+					className='footer-logo'
+					role='link'
+					tabIndex={0}
+					onClick={() => handleClick('landing')}
+					onKeyDown={(e) => handleKeyDown(e, 'landing')}
+				>
+					<img className='footer-logo-img' alt='' src='../jlp-final-horiz-1@2x.png' />
 				</section>
-				<nav className="footer-nav">
-					<span id="footer-nav-item-home" className="footer-nav-item" onClick={onHOMETextClick}>
+				<nav className='footer-nav'>
+					<span
+						id='footer-nav-item-home'
+						role='link'
+						tabIndex={0}
+						className='footer-nav-item'
+						onClick={() => handleClick('landing')}
+						onKeyDown={(e) => handleKeyDown(e, 'landing')}
+					>
 						HOME
 					</span>
-					<span id="footer-nav-item-about" className="footer-nav-item" onClick={onABOUTTextClick}>
+					<span
+						id='footer-nav-item-about'
+						role='link'
+						tabIndex={0}
+						className='footer-nav-item'
+						onClick={() => handleClick('about-main')}
+						onKeyDown={(e) => handleKeyDown(e, 'about-main')}
+					>
 						ABOUT
 					</span>
-					<span id="footer-nav-item-services" className="footer-nav-item" onClick={onSERVICESTextClick}>
+					<span
+						id='footer-nav-item-services'
+						role='link'
+						tabIndex={0}
+						className='footer-nav-item'
+						onClick={() => handleClick('services-main')}
+						onKeyDown={(e) => handleKeyDown(e, 'services-main')}
+					>
 						SERVICES
 					</span>
-					<span id="footer-nav-item-gallery" className="footer-nav-item" onClick={onGALLERYTextClick}>
+					<span
+						id='footer-nav-item-gallery'
+						role='link'
+						tabIndex={0}
+						className='footer-nav-item'
+						onClick={() => handleClick('gallery')}
+						onKeyDown={(e) => handleKeyDown(e, 'gallery')}
+					>
 						GALLERY
 					</span>
 				</nav>
-				<section className="footer-contact">
-					<button className="footer-contact-button button" onClick={onCONTACTFooterClick}>
+				<section className='footer-contact'>
+					<button className='footer-contact-button button' type='button' onClick={() => handleClick('contact-us')}>
 						CONTACT US
 					</button>
 				</section>
 			</header>
 
-			<div className="copyright">
-        <span className="services-txt">
-          <p className="copyright-2022">{`© Copyright  2022  Just Love Pizza  All Rights Reserved. `}</p>
-          <p className="designed-and-developed">
-            Designed and Developed by Enjenia
-          </p>
-        </span>
-      </div>
-
-    </div>
-  );
+			<div className='copyright'>
+				<span className='services-txt'>
+					<p className='copyright-2022'>{`© Copyright  2022  Just Love Pizza  All Rights Reserved. `}</p>
+					<p className='designed-and-developed'>Designed and Developed by Enjenia</p>
+				</span>
+			</div>
+		</div>
+	);
 };
 
 export default Footer;
