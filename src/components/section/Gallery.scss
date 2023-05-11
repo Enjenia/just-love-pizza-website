@@ -22,34 +22,34 @@
 .instagram-gallery {
 	display: flex;
 	flex-direction: row;
-	gap: 2em;
+	gap: 1.5rem;
 	justify-content: center;
 	flex-wrap: wrap;
 
 .instagram-first-column {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 	padding-top: 40px;
 
 
 	.icon {
-		width: 300px;
-		height: 300px;
+		width: 250px;
+		height: 250px;
 
-		@media (max-width: 1300px) {
-				width: 150px;
-				height: 150px;
+		@media (max-width: 1350px) {
+				width: 170px;
+				height: 170px;
 			}
 	}
 
 	.icon1 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-			@media (max-width: 1300px) {
-				width: 150px;
-				height: 150px;
+			@media (max-width: 1350px) {
+				width: 170px;
+				height: 170px;
 			}
 	}
 
@@ -58,26 +58,26 @@
 .instagram-second-column {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 
 	.icon3 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 
 	}
 
 	.icon4 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 	}
 
@@ -87,26 +87,26 @@
 .instagram-third-column {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 	padding-top: 40px;
 
 	.icon6 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 	}
 
 	.icon7 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 	}
 }
@@ -114,25 +114,25 @@
 .instagram-fourth-column {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 
 	.icon9 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 	}
 
 	.icon10 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
 	}
 
@@ -141,27 +141,34 @@
 .instagram-fifth-column {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 	padding-top: 40px;
 
-	.icon12 {
-	width: 300px;
-		height: 300px;
+	@media (max-width: 500px) {
+			display: flex;
+			flex-direction: row;
+			padding: 0px;
+		}
 
-			@media (max-width: 1300px) {
-					width: 150px;
-					height: 150px;
+	.icon12 {
+		width: 250px;
+			height: 250px;
+
+			@media (max-width: 1350px) {
+					width: 170px;
+					height: 170px;
 				}
 	}
 
 	.icon13 {
-		width: 300px;
-			height: 300px;
+		width: 250px;
+			height: 250px;
 
-				@media (max-width: 1300px) {
-						width: 150px;
-						height: 150px;
+				@media (max-width: 1350px) {
+						width: 170px;
+						height: 170px;
 					}
+
 	}
 }
 }

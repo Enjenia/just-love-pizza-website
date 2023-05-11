@@ -1,7 +1,7 @@
 .services-main {
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)),url("../../../public/wood-bg.png");
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.8)),url("../../../public/wood-bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -32,11 +32,12 @@
 		.engagement-parties-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/engagement@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/engagement@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 							@media (max-width: 800px) {
 									width: 150px;
@@ -52,6 +53,7 @@
 				font-size: var(--font-size-xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 60px;
 					}
 			}
 
@@ -60,11 +62,12 @@
 		.bridal-shower-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/bridal@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/bridal@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -79,6 +82,7 @@
 				font-size: var(--font-size-2xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -86,11 +90,12 @@
 		.popup-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/popup@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/popup@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -105,6 +110,7 @@
 				font-size: var(--font-size-2xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -112,11 +118,12 @@
 		.birthdays-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/birthday@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/birthday@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -131,6 +138,7 @@
 				font-size: var(--font-size-2xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -138,11 +146,12 @@
 		.artisan-market-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/artisan@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/artisan@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -157,6 +166,7 @@
 				font-size: var(--font-size-2xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -164,11 +174,12 @@
 		.corporate-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/corporate@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/corporate@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -183,6 +194,7 @@
 				font-size: var(--font-size-2xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -190,11 +202,12 @@
 		.weddings-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/weddings@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/weddings@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -210,6 +223,7 @@
 
 				@media (max-width: 800px) {
 						font-size: 15px;
+						padding-top: 70px;
 					}
 			}
 		}
@@ -217,11 +231,12 @@
 		.family-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.925)),url("../../../public/family@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/family@2x.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
+			cursor: pointer;
 
 			@media (max-width: 800px) {
 					width: 150px;
@@ -237,6 +252,7 @@
 
 				@media (max-width: 800px) {
 					font-size: 15px;
+					padding-top: 70px;
 				}
 			}
 		}
