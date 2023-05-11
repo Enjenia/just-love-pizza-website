@@ -15,7 +15,7 @@ const About = () => {
 				<h1>A little bit more about the business</h1>
 				<div className='julie-text'>
 					<img className='julie' alt='' src='../julie.png' />
-					<section className='txt-j'>
+					<section className='text-right'>
 						<p>
 							Welcome to our wood-fired mobile events pizza business, run by a passionate husband and wife team! We
 							specialise in bringing the authentic taste of wood-fired pizza to events of all sizes, whether it&apos;s a
@@ -27,22 +27,22 @@ const About = () => {
 							freshest ingredients and cooked to perfection in minutes in our custom-made wood-fired oven. The result is
 							a crispy, flavourful crust and toppings that burst with deliciousness.
 						</p>
-						<p>
-							We offer two types of service for our wood-fired pizzas. The first is pizzas cooked to order, where guests
-							can choose from our menu and watch as their pizza is cooked to perfection in our wood-fired oven. The
-							second option is a buffet-style service, where we serve a variety of pizzas and guests can help themselves
-							to their favourite slices.
-						</p>
 					</section>
 				</div>
 				<div className='middle'>
+					<p>
+						We offer two types of service for our wood-fired pizzas. The first is pizzas cooked to order, where guests
+						can choose from our menu and watch as their pizza is cooked to perfection in our wood-fired oven. The second
+						option is a buffet-style service, where we serve a variety of pizzas and guests can help themselves to their
+						favourite slices.
+					</p>
 					<p>
 						In addition to our delicious wood-fired pizzas, we also offer a small breakfast service, perfect for morning
 						events or markets, all made using high-quality ingredients and cooked in our wood-fired oven.
 					</p>
 				</div>
 				<div className='lewis-text'>
-					<section className='txt'>
+					<section className='text-left'>
 						<p>
 							As a husband and wife team, we take pride in delivering a high-quality service that exceeds your
 							expectations. We are committed to ensuring your event is stress-free and enjoyable, leaving you with
