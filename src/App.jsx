@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Routes, Route, useNavigationType, useLocation } from 'react-router-dom';
-import JustLovePizzaWebsite from './pages/JustLovePizzaWebsite';
+import JustLovePizzaWebsite from './components/pages/JustLovePizzaWebsite';
 
 const App = () => {
 	const action = useNavigationType();

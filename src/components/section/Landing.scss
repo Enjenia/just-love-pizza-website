@@ -1,70 +1,13 @@
-@import "../../src/breakpoints.scss";
+@import "../../../src/breakpoints.scss";
 
 .landing {
 	display: flex;
 	flex-direction: column;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)),url("../../public/PXL_20230415_153033115.MP.jpg");
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)),url("../../../public/PXL_20230415_153033115.MP.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 1085px;
-
-	.landing-header {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		margin: 45px 50px;
-
-		.landing-logo {
-			justify-self: flex-start;
-			width: 400px;
-			cursor: pointer;
-
-			.landing-logo-img {
-				width: 100%;
-
-				@media (max-width: 960px) {
-					display: flex;
-					flex-direction: column;
-					align-self: center;
-					justify-self: center;
-					width: 100%;
-				}
-			}
-		}
-
-		.landing-nav {
-			display: flex;
-			flex-direction: row;
-			gap: 60px;
-			font-size: var(--font-size-sm);
-			font-family: var(--font-ruda);
-			color: var(--color-white);
-
-			.landing-nav-item:hover {
-				cursor: pointer;
-				text-decoration: underline;
-			}
-
-			@media (max-width: 1200px) and (min-width: 0px) {
-					display: none;
-			}
-		}
-
-		.landing-contact {
-			display: flex;
-			justify-content: flex-end;
-			width: 400px;
-
-			.landing-contact-button:hover {
-				color: var(--color-black);
-			}
-
-			@media (max-width: 960px) {
-				display: none;
-		}
-		}
-	}
 
 	.landing-body {
 		display: flex;
