@@ -30,6 +30,10 @@
 	justify-content: center;
 	flex-wrap: wrap;
 
+	:hover {
+		opacity: 90%;
+	}
+
 .instagram-first-column {
 	display: flex;
 	flex-direction: row;
@@ -46,7 +50,6 @@
 	.icon {
 		width: 250px;
 		height: 250px;
-
 
 		@media (max-width: 1380px) {
 				width: 170px;
