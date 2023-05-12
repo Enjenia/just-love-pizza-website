@@ -79,7 +79,10 @@ const Footer = () => {
 			<div className='copyright'>
 				<span className='services-txt'>
 					<p className='copyright-2022'>{`© Copyright  2022  Just Love Pizza  All Rights Reserved. `}</p>
-					<p className='designed-and-developed'>Designed and Developed by Enjenia</p>
+					<p className='designed-and-developed'>
+						Designed and Developed by
+						<a href='https://enjenia.com'>Enjenia</a>
+					</p>
 				</span>
 			</div>
 		</div>
