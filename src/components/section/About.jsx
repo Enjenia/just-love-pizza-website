@@ -27,15 +27,15 @@ const About = () => {
 							freshest ingredients and cooked to perfection in minutes in our custom-made wood-fired oven. The result is
 							a crispy, flavourful crust and toppings that burst with deliciousness.
 						</p>
+						<p>
+							We offer two types of service for our wood-fired pizzas. The first is pizzas cooked to order, where guests
+							can choose from our menu and watch as their pizza is cooked to perfection in our wood-fired oven. The
+							second option is a buffet-style service, where we serve a variety of pizzas and guests can help themselves
+							to their favourite slices.
+						</p>
 					</section>
 				</div>
 				<div className='middle'>
-					<p>
-						We offer two types of service for our wood-fired pizzas. The first is pizzas cooked to order, where guests
-						can choose from our menu and watch as their pizza is cooked to perfection in our wood-fired oven. The second
-						option is a buffet-style service, where we serve a variety of pizzas and guests can help themselves to their
-						favourite slices.
-					</p>
 					<p>
 						In addition to our delicious wood-fired pizzas, we also offer a small breakfast service, perfect for morning
 						events or markets, all made using high-quality ingredients and cooked in our wood-fired oven.

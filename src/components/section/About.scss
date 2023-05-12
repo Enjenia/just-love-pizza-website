@@ -96,10 +96,11 @@
 		}
 
 		.julie {
-			max-width: 535px;
+			max-width: 100%;
 			min-width: 250px;
 			object-fit: cover;
 			object-position: center;
+			border-radius: 20px;
 
 			@include xs {
 				width: 100%;
@@ -123,6 +124,7 @@
 			min-width: 250px;
 			object-fit: cover;
 			object-position: center;
+			border-radius: 20px;
 
 			@include xs {
 				width: 100%;
