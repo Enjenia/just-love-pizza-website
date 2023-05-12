@@ -24,7 +24,7 @@ const Header = () => {
 				onClick={() => handleClick('landing')}
 				onKeyDown={(e) => handleKeyDown(e, 'landing')}
 			>
-				<img className='landing-logo-img' alt='' src='../jlp-final-horiz-1@2x.png' />
+				<img className='landing-logo-img' alt='' src='https://i.imgur.com/sT5qlAp.png' />
 			</section>
 			<nav className='landing-nav'>
 				<span
