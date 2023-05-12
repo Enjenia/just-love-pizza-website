@@ -25,7 +25,11 @@ const Footer = () => {
 					onClick={() => handleClick('landing')}
 					onKeyDown={(e) => handleKeyDown(e, 'landing')}
 				>
-					<img className='footer-logo-img' alt='' src='../jlp-final-horiz-1@2x.png' />
+					<img
+						className='footer-logo-img'
+						alt='Just Love Pizza, Traditional Wood Fired Pizza'
+						src='../jlp-final-horiz-1@2x.png'
+					/>
 				</section>
 				<nav className='footer-nav'>
 					<span

@@ -10,8 +10,10 @@ const Contact = () => (
 				<div className='contact-info'>
 					<p className='get-in-touch'>Get in touch</p>
 					<p className='website'>justlovepizza.co.uk</p>
-					<p className='mobile'>07868017133</p>
-					<a href='https://accounts.google.com'>
+					<a href='tel:+447868017133'>
+						<p className='mobile'>+44 7868 017133</p>
+					</a>
+					<a href='mailto:justlovepizza.info@gmail.com'>
 						<p className='email'>justlovepizza.info@gmail.com</p>
 					</a>
 				</div>

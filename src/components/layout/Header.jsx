@@ -24,7 +24,11 @@ const Header = () => {
 				onClick={() => handleClick('landing')}
 				onKeyDown={(e) => handleKeyDown(e, 'landing')}
 			>
-				<img className='landing-logo-img' alt='' src='https://i.imgur.com/sT5qlAp.png' />
+				<img
+					className='landing-logo-img'
+					alt='Just Love Pizza, Traditional Wood Fired Pizza'
+					src='https://i.imgur.com/sT5qlAp.png'
+				/>
 			</section>
 			<nav className='landing-nav'>
 				<span
