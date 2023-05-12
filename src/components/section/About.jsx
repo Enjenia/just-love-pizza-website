@@ -14,7 +14,7 @@ const About = () => {
 			<section className='about-text'>
 				<h1>A little bit more about the business</h1>
 				<div className='julie-text'>
-					<img className='julie' alt='' src='../julie.png' />
+					<img className='julie' alt='' src='../julie.png' loading='lazy' />
 					<section className='text-right'>
 						<p>
 							Welcome to our wood-fired mobile events pizza business, run by a passionate husband and wife team! We
@@ -54,7 +54,7 @@ const About = () => {
 							remember!
 						</p>
 					</section>
-					<img className='lewis' alt='' src='../lewis.png' />
+					<img className='lewis' alt='' src='../lewis.png' loading='lazy' />
 				</div>
 				<button className='about-contact-button button' type='button' onClick={onContactClick}>
 					GET IN TOUCH

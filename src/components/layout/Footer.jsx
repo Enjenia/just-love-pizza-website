@@ -30,6 +30,7 @@ const Footer = () => {
 						className='footer-logo-img'
 						alt='Just Love Pizza, Traditional Wood Fired Pizza'
 						src='../jlp-final-horiz-1@2x.png'
+						loading='lazy'
 					/>
 				</section>
 				<nav className='footer-nav'>
@@ -87,7 +88,13 @@ const Footer = () => {
 					<p className='designed-and-developed'>
 						Designed and Developed by{' '}
 						<a className='author-link' href='https://enjenia.com' target='_blank' rel='noreferrer'>
-							<img className='author-img' src={enjenia} alt='Enjenia, beautifully brewed software solutions' /> Enjenia
+							<img
+								className='author-img'
+								src={enjenia}
+								alt='Enjenia, beautifully brewed software solutions'
+								loading='lazy'
+							/>{' '}
+							Enjenia
 						</a>
 					</p>
 				</span>

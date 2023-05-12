@@ -23,19 +23,19 @@ const Contact = () => (
 
 				<div className='social-media-icons'>
 					<a href='https://www.facebook.com/profile.php?id=100086715121290' target='_blank' rel='noreferrer'>
-						<img className='facebook-icon' alt='' src={facebook} />
+						<img className='facebook-icon' alt='' src={facebook} loading='lazy' />
 					</a>
 					<a href='https://twitter.com/Just_Love_Pizza' target='_blank' rel='noreferrer'>
-						<img className='twitter-icon' alt='' src={twitter} />
+						<img className='twitter-icon' alt='' src={twitter} loading='lazy' />
 					</a>
 					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
-						<img className='instagram-icon' alt='' src={instagram} />
+						<img className='instagram-icon' alt='' src={instagram} loading='lazy' />
 					</a>
 				</div>
 			</div>
 
 			<div className='contact-image'>
-				<img className='jlp-oven-1' alt='' src='../jlp-oven-1@2x.png' />
+				<img className='jlp-oven-1' alt='' src='../jlp-oven-1@2x.png' loading='lazy' />
 			</div>
 		</div>
 	</div>
