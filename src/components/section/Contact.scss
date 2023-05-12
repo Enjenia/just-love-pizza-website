@@ -52,9 +52,9 @@
 				font-size: var(--font-size-sm);
 			}
 
-						@media only screen and (max-width: 450px) {
-							font-size: var(--font-size-xs);
-						}
+			@media only screen and (max-width: 450px) {
+				font-size: var(--font-size-xs);
+			}
 		}
 
 		.mobile {
@@ -69,9 +69,9 @@
 				font-size: var(--font-size-sm);
 			}
 
-						@media only screen and (max-width: 450px) {
-							font-size: var(--font-size-xs);
-						}
+			@media only screen and (max-width: 450px) {
+				font-size: var(--font-size-xs);
+			}
 		}
 
 		.email {
@@ -86,11 +86,10 @@
 				font-size: var(--font-size-sm);
 			}
 
-						@media only screen and (max-width: 450px) {
-							font-size: var(--font-size-xs);
-						}
+			@media only screen and (max-width: 450px) {
+				font-size: var(--font-size-xs);
+			}
 		}
-
 	}
 
 	.social-media-icons {
@@ -132,6 +131,19 @@
 		}
 	}
 
+	a, a:visited {
+		color: var(--color-black);
+	}
+
+	a:hover, a:active {
+		color: var(--color-primary);
+	}
+
+	a img, a:visited img {
+		filter: invert(0%) sepia(5%) saturate(7482%) hue-rotate(273deg) brightness(98%) contrast(105%);
+	}
+
+	a:hover img, a:active img {
+		filter: invert(40%) sepia(16%) saturate(6186%) hue-rotate(348deg) brightness(96%) contrast(99%);
+	}
 }
-
-

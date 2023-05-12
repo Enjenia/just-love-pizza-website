@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contact.scss';
+import facebook from '../../images/facebook.svg';
+import instagram from '../../images/instagram.svg';
+import twitter from '../../images/twitter.svg';
 
 const Contact = () => (
 	<div className='contact-section'>
@@ -20,13 +23,13 @@ const Contact = () => (
 
 				<div className='social-media-icons'>
 					<a href='https://www.facebook.com/profile.php?id=100086715121290' target='_blank' rel='noreferrer'>
-						<img className='facebook-icon' alt='' src='../facebook.svg' />
+						<img className='facebook-icon' alt='' src={facebook} />
 					</a>
 					<a href='https://twitter.com/Just_Love_Pizza' target='_blank' rel='noreferrer'>
-						<img className='twitter-icon' alt='' src='../twitter.svg' />
+						<img className='twitter-icon' alt='' src={twitter} />
 					</a>
 					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
-						<img className='instagram-icon' alt='' src='../instagram.svg' />
+						<img className='instagram-icon' alt='' src={instagram} />
 					</a>
 				</div>
 			</div>

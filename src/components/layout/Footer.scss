@@ -78,7 +78,20 @@
 		padding-bottom: 50px;
 		font-family: var(--font-montserrat);
 		font-size: var(--font-size-2xs);
-		color: var(--color-white)
+		color: var(--color-white);
+
+		.author-link, .author-link:visited {
+			color: var(--color-white);
+
+			&:hover, &:active {
+				color: var(--color-primary);
+			}
+		}
+
+		.author-img {
+			width: 28px;
+			vertical-align: middle;
+		}
 	}
 }
 

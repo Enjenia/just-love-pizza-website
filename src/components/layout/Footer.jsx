@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import './Footer.scss';
+import enjenia from '../../images/enjenia.png';
 
 const Footer = () => {
 	const handleClick = useCallback((location) => {
@@ -84,8 +85,10 @@ const Footer = () => {
 				<span className='services-txt'>
 					<p className='copyright-2022'>{`© Copyright  2022  Just Love Pizza  All Rights Reserved. `}</p>
 					<p className='designed-and-developed'>
-						Designed and Developed by
-						<a href='https://enjenia.com'> Enjenia</a>
+						Designed and Developed by{' '}
+						<a className='author-link' href='https://enjenia.com' target='_blank' rel='noreferrer'>
+							<img className='author-img' src={enjenia} alt='Enjenia, beautifully brewed software solutions' /> Enjenia
+						</a>
 					</p>
 				</span>
 			</div>
