@@ -11,7 +11,9 @@ const Contact = () => (
 					<p className='get-in-touch'>Get in touch</p>
 					<p className='website'>justlovepizza.co.uk</p>
 					<p className='mobile'>07868017133</p>
-					<p className='email'>justlovepizza.info@gmail.com</p>
+					<a href='https://accounts.google.com'>
+						<p className='email'>justlovepizza.info@gmail.com</p>
+					</a>
 				</div>
 
 				<div className='social-media-icons'>
