@@ -11,32 +11,22 @@ const Gallery = () => (
 					<span className='justlovepizza'>@justlovepizza</span>
 				</a>
 			</div>
-			<img className='pizzaicon' alt='' src='../pizzaicon@2x.png' />
+			<img className='pizzaicon' alt='' src='../pizza-icon.svg' />
 		</div>
 		<div className='instagram-gallery'>
 			<div className='instagram-first-column'>
-				<img className='icon' alt='' src='../car.jpg' />
-				<img className='icon1' alt='' src='../dough.jpg' />
+				<img className='icon' alt='' src='https://i.imgur.com/BlfPjJV.jpg' />
+				<img className='icon1' alt='' src='https://i.imgur.com/EWDq6Z1.jpg' />
+				<img className='icon3' alt='' src='https://i.imgur.com/0JldtFm.jpg' />
+				<img className='icon4' alt='' src='https://i.imgur.com/98i6H5b.jpg' />
+				<img className='icon6' alt='' src='https://i.imgur.com/e1Ndxtv.jpg' />
 			</div>
-
 			<div className='instagram-second-column'>
-				<img className='icon3' alt='' src='../fire.jpg' />
-				<img className='icon4' alt='' src='../inside.jpg' />
-			</div>
-
-			<div className='instagram-third-column'>
-				<img className='icon6' alt='' src='../jules.jpg' />
-				<img className='icon7' alt='' src='../darkfire.jpg' />
-			</div>
-
-			<div className='instagram-fourth-column'>
-				<img className='icon9' alt='' src='../lew2.jpg' />
-				<img className='icon10' alt='' src='../open.jpg' />
-			</div>
-
-			<div className='instagram-fifth-column'>
-				<img className='icon12' alt='' src='../shelter.jpg' />
-				<img className='icon13' alt='' src='../oven.jpg' />
+				<img className='icon7' alt='' src='https://i.imgur.com/UvDQWhr.jpg' />
+				<img className='icon9' alt='' src='https://i.imgur.com/K7os5Qg.jpg' />
+				<img className='icon10' alt='' src='https://i.imgur.com/VEbUwyw.jpg' />
+				<img className='icon12' alt='' src='https://i.imgur.com/C24utwd.jpg' />
+				<img className='icon13' alt='' src='https://i.imgur.com/bHlEox2.jpg' />
 			</div>
 		</div>
 	</div>

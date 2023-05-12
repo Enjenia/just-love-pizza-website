@@ -11,6 +11,7 @@
 	color: var(--color-white);
 	gap: 3em;
 	padding: 2em;
+	padding-top: 4rem;
 
 	.our-catering-services {
 		font-size: var(--font-size-xl);
@@ -23,7 +24,7 @@
 		display: flex;
 	  flex-direction: row;
 		justify-content: center;
-		gap: 2em;
+		gap: 1.5em;
 		align-self: center;
 		flex-wrap: wrap;
 		max-width: 1454px;
@@ -32,7 +33,7 @@
 		.engagement-parties-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/engagement@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/obHOlpQ.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -43,6 +44,10 @@
 									width: 150px;
 									height: 150px;
 								}
+										@media (max-width: 410px) {
+											width: 130px;
+											height: 130px;
+										}
 
 
 			.engagement-parties {
@@ -55,6 +60,11 @@
 						font-size: 15px;
 						padding-top: 60px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 50px;
+										}
 			}
 
 		}
@@ -62,7 +72,7 @@
 		.bridal-shower-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/bridal@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/DHrBdAs.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -73,24 +83,34 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.bridal-shower {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 60px;
+										}
 			}
 		}
 
 		.popup-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/popup@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/7x2D0f1.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -101,6 +121,11 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.popup-events {
 				padding-top: 100px;
@@ -112,13 +137,18 @@
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 60px;
+										}
 			}
 		}
 
 		.birthdays-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/birthday@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/ljx33rj.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -129,24 +159,34 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.birthdays {
 				padding-top: 120px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 60px;
+										}
 			}
 		}
 
 		.artisan-market-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/artisan@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/UiXJ7EH.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -157,24 +197,34 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.artisan-markets {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 50px;
+										}
 			}
 		}
 
 		.corporate-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/corporate@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/Z8XVinZ.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -185,24 +235,34 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.corporate-events {
 				padding-top: 100px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-xl);
 				@media (max-width: 800px) {
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 50px;
+										}
 			}
 		}
 
 		.weddings-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/weddings@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/FiprzJY.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
@@ -213,35 +273,52 @@
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.weddings {
 				padding-top: 120px;
 				align-self: center;
 				justify-self: center;
 				text-align: center;
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-xl);
 
 				@media (max-width: 800px) {
 						font-size: 15px;
 						padding-top: 70px;
 					}
+
+										@media (max-width: 410px) {
+											font-size: 15px;
+											padding-top: 60px;
+										}
 			}
 		}
 
 		.family-events-card {
 			width: 307px;
 			height: 307px;
-			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.8)),url("../../../public/family@2x.png");
+			background: linear-gradient(to top, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.3)),url("https://i.imgur.com/WI7rJ0N.png");
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius: 10px;
 			border: 3px solid #555;
 			cursor: pointer;
+			object-fit: contain;
+			object-position: center;
 
 			@media (max-width: 800px) {
 					width: 150px;
 					height: 150px;
 				}
+
+								@media (max-width: 410px) {
+									width: 130px;
+									height: 130px;
+								}
 
 			.family-events {
 				padding-top: 100px;
@@ -254,6 +331,11 @@
 					font-size: 15px;
 					padding-top: 70px;
 				}
+
+								@media (max-width: 410px) {
+									font-size: 15px;
+									padding-top: 60px;
+								}
 			}
 		}
 	}
