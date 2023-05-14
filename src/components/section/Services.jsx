@@ -8,12 +8,12 @@ const Services = () => (
 		<div className='services-main'>
 			<div className='services-body'>
 				<div className='services-info'>
-					<p className='we-do'>WE DO...</p>
-					<p className='weddings'>• WEDDINGS</p>
-					<p className='weddings'>• BIRTHDAY PARTIES</p>
-					<p className='weddings'>• FAMILY EVENTS</p>
-					<p className='weddings'>• CORPORATE EVENTS</p>
-					<p className='weddings'>• ARTISAN MARKETS</p>
+					<p className='we-do'>We do...</p>
+					<p className='weddings'>WEDDINGS</p>
+					<p className='weddings'>BIRTHDAY PARTIES</p>
+					<p className='weddings'>FAMILY EVENTS</p>
+					<p className='weddings'>CORPORATE EVENTS</p>
+					<p className='weddings'>ARTISAN MARKETS</p>
 				</div>
 			</div>
 
