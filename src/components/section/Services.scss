@@ -19,6 +19,7 @@
 			margin-left: 4rem;
 			color: #E06F27;
 			padding-top: 100px;
+			cursor: pointer;
 
 
 
@@ -27,7 +28,7 @@
 			}
 
 			.we-do {
-				font-size: var(--font-size-2xl);
+				font-size: var(--font-size-3xl);
 				font-family: var(--font-plus-jakarta-sans);
 
 				@media only screen and (max-width: 800px) {
@@ -44,6 +45,8 @@
 				font-size: var(--font-size-lg);
 				font-family: var(--font-ruda);
 				color: var(--color-white);
+				cursor: pointer;
+
 
 				@media only screen and (max-width: 800px) {
 					font-size: var(--font-size-sm);
@@ -58,10 +61,15 @@
 				}
 			}
 
+						:hover {
+							color: #7BC476;
+						}
+
 		}
 
 		.contact-image {
 			padding-top: 140px;
+			cursor: pointer;
 
 
 			:hover {
