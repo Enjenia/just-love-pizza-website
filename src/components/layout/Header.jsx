@@ -43,16 +43,6 @@ const Header = () => {
 					HOME
 				</span>
 				<span
-					id='landing-nav-item-about'
-					role='link'
-					tabIndex={0}
-					className='landing-nav-item'
-					onClick={() => handleClick('about-main')}
-					onKeyDown={(e) => handleKeyDown(e, 'about-main')}
-				>
-					ABOUT
-				</span>
-				<span
 					id='landing-nav-item-services'
 					role='link'
 					tabIndex={0}
@@ -61,6 +51,16 @@ const Header = () => {
 					onKeyDown={(e) => handleKeyDown(e, 'services-main')}
 				>
 					SERVICES
+				</span>
+				<span
+					id='landing-nav-item-about'
+					role='link'
+					tabIndex={0}
+					className='landing-nav-item'
+					onClick={() => handleClick('about-main')}
+					onKeyDown={(e) => handleKeyDown(e, 'about-main')}
+				>
+					ABOUT
 				</span>
 				<span
 					id='landing-nav-item-gallery'

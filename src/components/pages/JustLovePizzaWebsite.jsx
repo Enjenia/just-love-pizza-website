@@ -10,8 +10,8 @@ import './JustLovePizzaWebsite.scss';
 const JustLovePizzaWebsite = () => (
 	<div className='just-love-pizza-website'>
 		<Landing />
-		<About />
 		<Services />
+		<About />
 		<Gallery />
 		<Contact />
 		<Footer />

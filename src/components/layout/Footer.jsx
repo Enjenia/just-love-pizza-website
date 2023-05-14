@@ -45,16 +45,6 @@ const Footer = () => {
 						HOME
 					</span>
 					<span
-						id='footer-nav-item-about'
-						role='link'
-						tabIndex={0}
-						className='footer-nav-item'
-						onClick={() => handleClick('about-main')}
-						onKeyDown={(e) => handleKeyDown(e, 'about-main')}
-					>
-						ABOUT
-					</span>
-					<span
 						id='footer-nav-item-services'
 						role='link'
 						tabIndex={0}
@@ -63,6 +53,16 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'services-main')}
 					>
 						SERVICES
+					</span>
+					<span
+						id='footer-nav-item-about'
+						role='link'
+						tabIndex={0}
+						className='footer-nav-item'
+						onClick={() => handleClick('about-main')}
+						onKeyDown={(e) => handleKeyDown(e, 'about-main')}
+					>
+						ABOUT
 					</span>
 					<span
 						id='footer-nav-item-gallery'

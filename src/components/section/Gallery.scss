@@ -1,16 +1,25 @@
 .gallery-main {
-	height: fit-content;
+	min-height: 1080px;
 	padding-top: 2rem;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.8)), url("../../../public/wood-bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 
 .instagram-link {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	padding: 90px;
+	color: #fff;
 
 	.gallery-title {
 		font-size: var(--font-size-base);
 		font-family: var(--font-rokkitt);
+
+		.justlovepizza {
+			color: #fff;
+		}
 
 		@media (max-width: 410px) {
 			font-size: 16px;
@@ -29,6 +38,7 @@
 	gap: 1.5rem;
 	justify-content: center;
 	flex-wrap: wrap;
+	padding-bottom: 4rem;
 
 	a:hover {
 		opacity: 90%;
@@ -241,7 +251,7 @@
 }
 }
 	a, a:visited {
-		color: var(--color-black);
+		color: var(--color-white);
 	}
 
 	a:hover, a:active {

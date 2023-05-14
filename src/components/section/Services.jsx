@@ -2,10 +2,31 @@ import React from 'react';
 import './Services.scss';
 
 const Services = () => (
-	<div className='services-main' data-scroll-to='services-main'>
-		<div className='our-catering-services'>OUR CATERING SERVICES</div>
+	<div className='services-section'>
+		<div className='services' data-scroll-to='services-main' />
 
-		<div className='service-cards'>
+		<div className='services-main'>
+			<div className='services-body'>
+				<div className='services-info'>
+					<p className='we-do'>WE DO...</p>
+					<p className='weddings'>WEDDINGS</p>
+					<p className='weddings'>BIRTHDAY PARTIES</p>
+					<p className='weddings'>FAMILY EVENTS</p>
+					<p className='weddings'>CORPORATE EVENTS</p>
+					<p className='weddings'>ARTISAN MARKETS</p>
+				</div>
+			</div>
+
+			<div className='contact-image'>
+				<img className='jlp-oven-2' alt='' src='../JLP OVEN 2.png' loading='lazy' />
+			</div>
+		</div>
+	</div>
+);
+
+export default Services;
+
+/*		<div className='service-cards'>
 			<div className='engagement-parties-card'>
 				<div className='engagement-parties'>ENGAGEMENT PARTIES</div>
 			</div>
@@ -35,8 +56,4 @@ const Services = () => (
 			<div className='weddings-card'>
 				<div className='weddings'>WEDDINGS</div>
 			</div>
-		</div>
-	</div>
-);
-
-export default Services;
+		</div> */

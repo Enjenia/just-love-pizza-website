@@ -12,13 +12,13 @@ const Contact = () => (
 			<div className='contact-body'>
 				<div className='contact-info'>
 					<p className='get-in-touch'>Get in touch</p>
-					<p className='website'>justlovepizza.co.uk</p>
-					<a href='tel:+447868017133'>
-						<p className='mobile'>+44 7868 017133</p>
-					</a>
 					<a href='mailto:justlovepizza.info@gmail.com'>
 						<p className='email'>justlovepizza.info@gmail.com</p>
 					</a>
+					<a href='tel:+447868017133'>
+						<p className='mobile'>07868017133</p>
+					</a>
+					<p className='website'>just love social?</p>
 				</div>
 
 				<div className='social-media-icons'>
