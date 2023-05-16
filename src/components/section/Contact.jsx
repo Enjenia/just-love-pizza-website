@@ -11,16 +11,15 @@ const Contact = () => (
 		<div className='contact-main'>
 			<div className='contact-body'>
 				<div className='contact-info'>
-					<p className='get-in-touch'>Get in touch</p>
-					<a href='mailto:justlovepizza.info@gmail.com'>
-						<p className='email'>justlovepizza.info@gmail.com</p>
-					</a>
-					<a href='tel:+447868017133'>
-						<p className='mobile'>07868017133</p>
-					</a>
+					<p className='get-in-touch'>Just get in touch</p>
+					<p className='email'>
+						Email - <a href='mailto:justlovepizza.info@gmail.com'>justlovepizza.info@gmail.com</a>
+					</p>
+					<p className='mobile'>
+						Or call - <a href='tel:+447868017133'>07868017133</a>
+					</p>
 					<p className='website'>just love social?</p>
 				</div>
-
 				<div className='social-media-icons'>
 					<a href='https://www.facebook.com/profile.php?id=100086715121290' target='_blank' rel='noreferrer'>
 						<img className='facebook-icon' alt='' src={facebook} loading='lazy' />
@@ -35,7 +34,7 @@ const Contact = () => (
 			</div>
 
 			<div className='contact-image'>
-				<img className='jlp-oven-1' alt='' src='../jlp-oven-1@2x.png' loading='lazy' />
+				<img className='jlp-oven-1' alt='' src='../JLP OVEN 2.png' loading='lazy' />
 			</div>
 		</div>
 	</div>
