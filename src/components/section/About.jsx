@@ -2,8 +2,8 @@ import React, { useCallback } from 'react';
 import './About.scss';
 
 const About = () => {
-	const handleClick = useCallback(() => {
-		const anchor = document.querySelector("[data-scroll-to='contact-us']");
+	const handleClick = useCallback((location) => {
+		const anchor = document.querySelector(`[data-scroll-to='${location}']`);
 		if (anchor) {
 			anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
 		}
@@ -22,7 +22,7 @@ const About = () => {
 					A little bit more about the business
 					<section className='return-home'>
 						<button
-							className='landing-contact-button button'
+							className='return-contact-button button'
 							type='button'
 							onClick={() => handleClick('landing')}
 							onKeyDown={(e) => handleKeyDown(e, 'landing')}
@@ -77,8 +77,8 @@ const About = () => {
 				<button
 					className='about-contact-button button'
 					type='button'
-					onClick={() => handleClick('landing')}
-					onKeyDown={(e) => handleKeyDown(e, 'landing')}
+					onClick={() => handleClick('contact-us')}
+					onKeyDown={(e) => handleKeyDown(e, 'contact-us')}
 				>
 					GET IN TOUCH
 				</button>
