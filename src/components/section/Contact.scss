@@ -8,7 +8,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	min-height: 1085px;
-	padding-top: 150px;
 	max-width: 1500px;
 	width: 100%;
 	margin: auto;
@@ -26,6 +25,7 @@
 		flex-direction: column;
 		justify-content: space-between;
 		margin-left: 4rem;
+		padding-top: 100px;
 
 		@media only screen and (max-width: 600px) {
 			margin-top: 9rem;
@@ -130,9 +130,19 @@
 		}
 	}
 
+	.return-home {
+		margin-left: 4rem;
+		margin-top: 3rem;
+
+		:hover {
+			color: #000;
+		}
+	}
+
 
 	.jlp-oven-1 {
 		width: 721px;
+		padding-top: 150px;
 
 		@media (max-width: 800px) {
 			display: none;

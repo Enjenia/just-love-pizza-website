@@ -1,10 +1,11 @@
 .gallery-main {
 	min-height: 1080px;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	background-image: url("../../../public/wood-bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+
 
 .instagram-link {
 	display: flex;
@@ -30,6 +31,14 @@
 		width: 31px;
 		height: 32px;
 	}
+
+	.return-home {
+		padding-left: 40px;
+
+		:hover {
+			color: #000;
+		}
+	}
 }
 
 .instagram-gallery {
@@ -38,7 +47,7 @@
 	gap: 1.5rem;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding-bottom: 4rem;
+	padding-bottom: 3rem;
 
 	a:hover {
 		opacity: 90%;
@@ -249,6 +258,8 @@
 
 	}
 }
+
+
 }
 	a, a:visited {
 		color: var(--color-white);
@@ -257,4 +268,5 @@
 	a:hover, a:active {
 		color: var(--color-primary);
 	}
+
 }

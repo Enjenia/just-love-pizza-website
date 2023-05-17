@@ -2,17 +2,35 @@ import React, { useCallback } from 'react';
 import './About.scss';
 
 const About = () => {
-	const onContactClick = useCallback(() => {
+	const handleClick = useCallback(() => {
 		const anchor = document.querySelector("[data-scroll-to='contact-us']");
 		if (anchor) {
 			anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
 		}
 	}, []);
 
+	const handleKeyDown = (e, location) => {
+		if (e.keyCode === 13) {
+			handleClick(location);
+		}
+	};
+
 	return (
 		<div className='about-main' data-scroll-to='about-main'>
 			<section className='about-text'>
-				<h1>A little bit more about the business</h1>
+				<h1>
+					A little bit more about the business
+					<section className='return-home'>
+						<button
+							className='landing-contact-button button'
+							type='button'
+							onClick={() => handleClick('landing')}
+							onKeyDown={(e) => handleKeyDown(e, 'landing')}
+						>
+							RETURN HOME?
+						</button>
+					</section>
+				</h1>
 				<div className='julie-text'>
 					<img className='julie' alt='' src='../julie.png' loading='lazy' />
 					<section className='text-right'>
@@ -56,7 +74,12 @@ const About = () => {
 					</section>
 					<img className='lewis' alt='' src='../lewis.png' loading='lazy' />
 				</div>
-				<button className='about-contact-button button' type='button' onClick={onContactClick}>
+				<button
+					className='about-contact-button button'
+					type='button'
+					onClick={() => handleClick('landing')}
+					onKeyDown={(e) => handleKeyDown(e, 'landing')}
+				>
 					GET IN TOUCH
 				</button>
 			</section>

@@ -11,6 +11,13 @@
 		width: 100%;
 		margin: auto;
 
+		@media only screen and (max-width: 800px) {
+			background-position: center;
+			background: url("../../../public/jlp-oven-1@2x.png") 0%;
+			background-size: 1000px;
+			background-repeat: no-repeat;
+		}
+
 
 		.services-info {
 			display: flex;
@@ -18,7 +25,7 @@
 			justify-content: space-between;
 			margin-left: 4rem;
 			color: #E06F27;
-			padding-top: 100px;
+			padding-top: 40px;
 			cursor: pointer;
 
 
@@ -67,9 +74,23 @@
 
 		}
 
+		.return-home {
+			margin-left: 4rem;
+			margin-top: 2rem;
+
+			:hover {
+				color: #000;
+			}
+		}
+
+
 		.contact-image {
 			padding-top: 140px;
 			cursor: pointer;
+
+			@media (max-width: 800px) {
+					display: none;
+				}
 
 
 			:hover {
@@ -105,6 +126,8 @@
 						transform: translateX(-6px) rotate(-1.2deg);
 					}
 				}
+
+
 
 /*	.our-catering-services {
 		font-size: var(--font-size-xl);

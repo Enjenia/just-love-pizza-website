@@ -74,7 +74,12 @@ const Header = () => {
 				</span>
 			</nav>
 			<section className='landing-contact'>
-				<button className='landing-contact-button button' type='button' onClick={() => handleClick('contact-us')}>
+				<button
+					className='landing-contact-button button'
+					type='button'
+					onClick={() => handleClick('contact-us')}
+					onKeyDown={(e) => handleKeyDown(e, 'contact-us')}
+				>
 					CONTACT US
 				</button>
 			</section>
