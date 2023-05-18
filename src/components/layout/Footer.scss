@@ -114,10 +114,10 @@
 		width: 100%;
 		flex-direction: row;
 		justify-content: space-evenly;
-		gap: 3.2rem;
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
-		cursor: pointer;
+		gap: 1rem;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		flex-wrap: wrap;
 
 		.mobile-nav-item {
 			display: flex;
@@ -125,15 +125,16 @@
 			align-items: center;
 			justify-content: space-between;
 			gap: .25em;
+			cursor: pointer;
 		}
 
-		span,
-		span:visited {
+		.mobile-nav-item,
+		.mobile-nav-item:visited {
 			color: var(--color-white);
 		}
 
-		span:hover,
-		span:active {
+		.mobile-nav-item:hover,
+		.mobile-nav-item:active {
 			color: var(--color-primary);
 		}
 
@@ -144,7 +145,7 @@
 
 		span:hover img,
 		span:active img {
-		filter: invert(40%) sepia(16%) saturate(6186%) hue-rotate(348deg) brightness(96%) contrast(99%);
+		filter: invert(49%) sepia(67%) saturate(4984%) hue-rotate(349deg) brightness(96%) contrast(99%);
 		}
 	}
 
