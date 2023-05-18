@@ -14,6 +14,11 @@
 	padding: 90px;
 	color: #fff;
 
+	@media (max-width: 550px) {
+		padding-left: 40px;
+		padding-bottom: 60px;
+	}
+
 	.gallery-title {
 		font-size: var(--font-size-base);
 		font-family: var(--font-rokkitt);

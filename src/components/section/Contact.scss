@@ -28,7 +28,8 @@
 		padding-top: 100px;
 
 		@media only screen and (max-width: 600px) {
-			margin-top: 9rem;
+			margin-top: 4rem;
+			margin-left: 2rem;
 		}
 
 		.get-in-touch {
@@ -105,6 +106,10 @@
 		font-size: var(--font-size-lg);
 		font-family: var(--font-ruda);
 
+		@media only screen and (max-width: 600px) {
+				margin-left: 2rem;
+			}
+
 		@media only screen and (max-width: 1200px) {
 			gap: 30px;
 		}
@@ -135,6 +140,10 @@
 
 		:hover {
 			color: #000;
+		}
+
+		@media only screen and (max-width: 600px) {
+			margin-left: 2rem;
 		}
 	}
 
