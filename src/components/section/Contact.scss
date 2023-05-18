@@ -101,7 +101,6 @@
 		display: flex;
 		flex-direction: row;
 		gap: 50px;
-		padding-top: 40px;
 		margin-left: 4rem;
 		font-size: var(--font-size-lg);
 		font-family: var(--font-ruda);
@@ -132,7 +131,7 @@
 
 	.return-home {
 		margin-left: 4rem;
-		margin-top: 3rem;
+		margin-top: 5rem;
 
 		:hover {
 			color: #000;

@@ -1,20 +1,44 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import './Landing.scss';
 import Header from '../layout/Header';
 
-const Landing = () => (
-	<div className='landing' data-scroll-to='landing'>
-		<Header />
+const Landing = () => {
+	const handleClick = useCallback((location) => {
+		const anchor = document.querySelector(`[data-scroll-to='${location}']`);
+		if (anchor) {
+			anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
+		}
+	}, []);
 
-		<section className='landing-body'>
-			<h1 className='landing-body-title'>Welcome to Just Love Pizza</h1>
-			<p className='landing-body-content'>
-				Craving wood-fired pizza for your event? Let us bring our wood-fired pizza oven to you! Our passionate team will
-				serve up a variety of tasty pizzas buffet-style for your guests to enjoy. Contact us now to elevate your event
-				with our unforgettable wood-fired pizza.
-			</p>
-		</section>
-	</div>
-);
+	const handleKeyDown = (e, location) => {
+		if (e.keyCode === 13) {
+			handleClick(location);
+		}
+	};
+	return (
+		<div className='landing' data-scroll-to='landing'>
+			<Header />
+
+			<section className='landing-body'>
+				<h1 className='landing-body-title'>Welcome to Just Love Pizza</h1>
+				<p className='landing-body-content'>
+					Craving wood-fired pizza for your event? Let us bring our wood-fired pizza oven to you! Our passionate team
+					will serve up a variety of tasty pizzas buffet-style for your guests to enjoy. Contact us now to elevate your
+					event with our unforgettable wood-fired pizza.
+				</p>
+			</section>
+			<section className='return-home'>
+				<button
+					className='landing-contact-button button'
+					type='button'
+					onClick={() => handleClick('contact-us')}
+					onKeyDown={(e) => handleKeyDown(e, 'contact-us')}
+				>
+					CONTACT US
+				</button>
+			</section>
+		</div>
+	);
+};
 
 export default Landing;
