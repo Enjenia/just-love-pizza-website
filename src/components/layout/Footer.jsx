@@ -5,7 +5,8 @@ import Phone from '../../images/phone.svg';
 import Image from '../../images/image.svg';
 import Truck from '../../images/truck.svg';
 import Question from '../../images/question.svg';
-import enjenia from '../../images/enjenia.png';
+import Logo from '../../images/jlp-final-horiz-2@2x.webp';
+import enjenia from '../../images/enjenia.webp';
 
 const Footer = () => {
 	const handleClick = useCallback((location) => {
@@ -34,7 +35,7 @@ const Footer = () => {
 					<img
 						className='footer-logo-img'
 						alt='Just Love Pizza, Traditional Wood Fired Pizza'
-						src='../jlp-final-horiz-1@2x.png'
+						src={Logo}
 						loading='lazy'
 					/>
 				</section>

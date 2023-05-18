@@ -1,5 +1,5 @@
 .services-section {
-	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)), url("../../../public/wood-bg.png");
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.925)), url("../../images/wood-bg.webp");
 }
 
 .services-main {
@@ -13,7 +13,7 @@
 
 		@media only screen and (max-width: 800px) {
 			background-position: center;
-			background: url("../../../public/jlp-oven-1@2x.png") 0%;
+			background: url("../../images/jlp-oven-1@2x.webp") 0%;
 			background-size: 1000px;
 			background-repeat: no-repeat;
 		}

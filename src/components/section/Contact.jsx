@@ -3,6 +3,7 @@ import './Contact.scss';
 import facebook from '../../images/facebook.svg';
 import instagram from '../../images/instagram.svg';
 import twitter from '../../images/twitter.svg';
+import JLP from '../../images/JLP OVEN 2.webp';
 
 const Contact = () => {
 	const handleClick = useCallback((location) => {
@@ -58,7 +59,7 @@ const Contact = () => {
 				</div>
 
 				<div className='contact-image'>
-					<img className='jlp-oven-1' alt='' src='../JLP OVEN 2.png' loading='lazy' />
+					<img className='jlp-oven-1' alt='' src={JLP} loading='lazy' />
 				</div>
 			</div>
 		</div>

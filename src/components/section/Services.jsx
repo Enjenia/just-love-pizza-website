@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react';
+import JLP from '../../images/JLP OVEN 2.webp';
 import './Services.scss';
 
 const Service = () => {
@@ -42,7 +43,7 @@ const Service = () => {
 				</div>
 
 				<div className='contact-image'>
-					<img className='jlp-oven-2' alt='' src='../JLP OVEN 2.png' loading='lazy' />
+					<img className='jlp-oven-2' alt='' src={JLP} loading='lazy' />
 				</div>
 			</div>
 		</div>

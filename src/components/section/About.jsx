@@ -1,4 +1,6 @@
 import React, { useCallback } from 'react';
+import Lewis from '../../images/lewis.webp';
+import Julie from '../../images/julie.webp';
 import './About.scss';
 
 const About = () => {
@@ -32,7 +34,7 @@ const About = () => {
 					</section>
 				</h1>
 				<div className='julie-text'>
-					<img className='julie' alt='' src='../julie.png' loading='lazy' />
+					<img className='julie' alt='' src={Julie} loading='lazy' />
 					<section className='text-right'>
 						<p>
 							Welcome to our wood-fired mobile events pizza business, run by a passionate husband and wife team! We
@@ -72,7 +74,7 @@ const About = () => {
 							remember!
 						</p>
 					</section>
-					<img className='lewis' alt='' src='../lewis.png' loading='lazy' />
+					<img className='lewis' alt='' src={Lewis} loading='lazy' />
 				</div>
 				<button
 					className='about-contact-button button'
