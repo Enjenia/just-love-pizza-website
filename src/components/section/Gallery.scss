@@ -18,16 +18,12 @@
 		font-size: var(--font-size-base);
 		font-family: var(--font-rokkitt);
 
-		.justlovepizza {
-			color: #fff;
-		}
-
 		@media (max-width: 500px) {
 			font-size: 20px;
 		}
 	}
 
-	.pizzaicon {
+	.pizza-icon {
 		width: 31px;
 		height: 32px;
 	}
