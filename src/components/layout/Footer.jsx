@@ -116,6 +116,7 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'landing')}
 					>
 						<img className='home-icon' alt='' src={Home} loading='lazy' />
+						<span className='mobile-nav-item-label'>Home</span>
 					</span>
 					<span
 						id='mobile-nav-item-services'
@@ -126,6 +127,7 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'services-main')}
 					>
 						<img className='truck-icon' alt='' src={Truck} loading='lazy' />
+						<span className='mobile-nav-item-label'>Services</span>
 					</span>
 					<span
 						id='mobile-nav-item-about'
@@ -136,6 +138,7 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'about-main')}
 					>
 						<img className='question-icon' alt='' src={Question} loading='lazy' />
+						<span className='mobile-nav-item-label'>About</span>
 					</span>
 					<span
 						id='mobile-nav-item-gallery'
@@ -146,6 +149,7 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'gallery')}
 					>
 						<img className='image-icon' alt='' src={Image} loading='lazy' />
+						<span className='mobile-nav-item-label'>Gallery</span>
 					</span>
 					<span
 						id='mobile-nav-item-contact'
@@ -156,6 +160,7 @@ const Footer = () => {
 						onKeyDown={(e) => handleKeyDown(e, 'contact-us')}
 					>
 						<img className='phone-icon' alt='' src={Phone} loading='lazy' />
+						<span className='mobile-nav-item-label'>Contact</span>
 					</span>
 				</nav>
 			</div>
