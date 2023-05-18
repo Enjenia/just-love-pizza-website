@@ -22,10 +22,11 @@ const Gallery = () => {
 				<div className='gallery-title'>
 					{`Check us out on Instagram `}
 					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
-						<span className='justlovepizza'>@justlovepizza</span>
+						<span className='justlovepizza'>
+							@justlovepizza <img className='pizzaicon' alt='' src='../pizza-icon.svg' loading='lazy' />{' '}
+						</span>
 					</a>
 				</div>
-				<img className='pizzaicon' alt='' src='../pizza-icon.svg' loading='lazy' />
 
 				<section className='return-home'>
 					<button
