@@ -22,8 +22,7 @@ const Gallery = () => {
 				<div className='gallery-title'>
 					{`Check us out on Instagram `}
 					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
-						<span className='justlovepizza'>@justlovepizza </span>
-						<img className='pizzaicon' alt='' src='../pizza-icon.svg' loading='lazy' />
+						@just.love.pizza <img className='pizza-icon' alt='' src='../pizza-icon.svg' loading='lazy' />
 					</a>
 				</div>
 
@@ -41,36 +40,36 @@ const Gallery = () => {
 
 			<div className='instagram-gallery'>
 				<div className='instagram-first-column'>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/r6oPONj.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon' alt='' src='https://i.imgur.com/r6oPONj.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/sfYzaOM.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon1' alt='' src='https://i.imgur.com/sfYzaOM.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/w2BrmMy.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon3' alt='' src='https://i.imgur.com/w2BrmMy.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/bX80kvm.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon4' alt='' src='https://i.imgur.com/bX80kvm.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/KurBSTP.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon6' alt='' src='https://i.imgur.com/KurBSTP.jpg' loading='lazy' />
 					</a>
 				</div>
 				<div className='instagram-second-column'>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/uZGwlpT.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon7' alt='' src='https://i.imgur.com/uZGwlpT.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/fDTliXn.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon9' alt='' src='https://i.imgur.com/fDTliXn.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/8udbDOP.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon10' alt='' src='https://i.imgur.com/8udbDOP.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/owgySY7.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon12' alt='' src='https://i.imgur.com/owgySY7.jpg' loading='lazy' />
 					</a>
-					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
+					<a href='https://i.imgur.com/IvYDTc9.jpg' target='_blank' rel='noreferrer'>
 						<img className='icon13' alt='' src='https://i.imgur.com/IvYDTc9.jpg' loading='lazy' />
 					</a>
 				</div>
