@@ -4,6 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.7)),url("https://i.imgur.com/G7kMRwB.jpg");
+	background-color: #000;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -20,16 +21,16 @@
 		animation: landing 1s ease 0s 1 normal forwards;
 
 		@keyframes landing {
-				0% {
-					opacity: 0;
-					transform: scale(0.6);
-				}
-
-				100% {
-					opacity: 1;
-					transform: scale(1);
-				}
+			0% {
+				opacity: 0;
+				transform: scale(0.6);
 			}
+
+			100% {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
 
 		.landing-body-title {
 			font-family: var(--font-rosario);
@@ -70,8 +71,6 @@
 				inline-size: 300px;
 			}
 		}
-
-
 	}
 
 	.return-home {
@@ -83,9 +82,9 @@
 			color: #000;
 		}
 
-				@media (min-width: 960px) {
-					display: none;
-				}
+		@media (min-width: 960px) {
+			display: none;
+		}
 	}
 }
 
