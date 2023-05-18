@@ -1,5 +1,10 @@
 import React, { useCallback } from 'react';
 import './Footer.scss';
+import Home from '../../images/home.svg';
+import Phone from '../../images/phone.svg';
+import Image from '../../images/image.svg';
+import Truck from '../../images/truck.svg';
+import Question from '../../images/question.svg';
 import enjenia from '../../images/enjenia.png';
 
 const Footer = () => {
@@ -98,6 +103,61 @@ const Footer = () => {
 						</a>
 					</p>
 				</span>
+			</div>
+
+			<div className='mobile'>
+				<nav className='mobile-nav'>
+					<span
+						id='mobile-nav-item-home'
+						role='link'
+						tabIndex={0}
+						className='mobile-nav-item'
+						onClick={() => handleClick('landing')}
+						onKeyDown={(e) => handleKeyDown(e, 'landing')}
+					>
+						<img className='home-icon' alt='' src={Home} loading='lazy' />
+					</span>
+					<span
+						id='mobile-nav-item-services'
+						role='link'
+						tabIndex={0}
+						className='mobile-nav-item'
+						onClick={() => handleClick('services-main')}
+						onKeyDown={(e) => handleKeyDown(e, 'services-main')}
+					>
+						<img className='truck-icon' alt='' src={Truck} loading='lazy' />
+					</span>
+					<span
+						id='mobile-nav-item-about'
+						role='link'
+						tabIndex={0}
+						className='mobile-nav-item'
+						onClick={() => handleClick('about-main')}
+						onKeyDown={(e) => handleKeyDown(e, 'about-main')}
+					>
+						<img className='question-icon' alt='' src={Question} loading='lazy' />
+					</span>
+					<span
+						id='mobile-nav-item-gallery'
+						role='link'
+						tabIndex={0}
+						className='mobile-nav-item'
+						onClick={() => handleClick('gallery')}
+						onKeyDown={(e) => handleKeyDown(e, 'gallery')}
+					>
+						<img className='image-icon' alt='' src={Image} loading='lazy' />
+					</span>
+					<span
+						id='mobile-nav-item-contact'
+						role='link'
+						tabIndex={0}
+						className='mobile-nav-item'
+						onClick={() => handleClick('contact-us')}
+						onKeyDown={(e) => handleKeyDown(e, 'contact-us')}
+					>
+						<img className='phone-icon' alt='' src={Phone} loading='lazy' />
+					</span>
+				</nav>
 			</div>
 		</div>
 	);
