@@ -22,9 +22,8 @@ const Gallery = () => {
 				<div className='gallery-title'>
 					{`Check us out on Instagram `}
 					<a href='https://www.instagram.com/just.love.pizza/?hl=en' target='_blank' rel='noreferrer'>
-						<span className='justlovepizza'>
-							@justlovepizza <img className='pizzaicon' alt='' src='../pizza-icon.svg' loading='lazy' />{' '}
-						</span>
+						<span className='justlovepizza'>@justlovepizza </span>
+						<img className='pizzaicon' alt='' src='../pizza-icon.svg' loading='lazy' />
 					</a>
 				</div>
 
