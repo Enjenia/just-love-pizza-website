@@ -24,11 +24,11 @@ const Service = () => {
 				<div className='services-body'>
 					<div className='services-info'>
 						<p className='we-do'>We do...</p>
-						<p className='weddings'>WEDDINGS</p>
-						<p className='weddings'>BIRTHDAY PARTIES</p>
-						<p className='weddings'>FAMILY EVENTS</p>
-						<p className='weddings'>CORPORATE EVENTS</p>
-						<p className='weddings'>ARTISAN MARKETS</p>
+						<p className='we-do-items'>WEDDINGS</p>
+						<p className='we-do-items'>BIRTHDAY PARTIES</p>
+						<p className='we-do-items'>FAMILY EVENTS</p>
+						<p className='we-do-items'>CORPORATE EVENTS</p>
+						<p className='we-do-items'>ARTISAN MARKETS</p>
 					</div>
 					<section className='return-home'>
 						<button

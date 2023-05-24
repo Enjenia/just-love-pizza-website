@@ -1,270 +1,133 @@
 .gallery-main {
-	min-height: 1080px;
+	height: fit-content;
+	min-height: 100vh;
 	padding-top: 1rem;
 	background-image: url("../../images/wood-bg.webp");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-
-
-.instagram-link {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
-	padding: 90px;
-	color: #fff;
 
-	@media (max-width: 550px) {
-		padding-left: 40px;
-		padding-bottom: 60px;
-	}
-
-	.gallery-title {
-		font-size: var(--font-size-base);
-		font-family: var(--font-rokkitt);
-
-	}
-
-	.pizza-icon {
-		width: 31px;
-		height: 32px;
-	}
-
-	.return-home {
-		padding-left: 40px;
-
-		:hover {
-			color: #000;
-		}
-
-		@media (max-width: 1200px) {
-			display: none;
-
-		}
-	}
-
-}
-
-.instagram-gallery {
-	display: flex;
-	flex-direction: row;
-	gap: 1.5rem;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding-bottom: 3rem;
-
-	a:hover {
-		filter: drop-shadow(0 0 0.75rem #000);
-	}
-
-.instagram-first-column {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 1400px;
-	gap: 2rem;
-	padding-top: 40px;
-
-	@media (max-width: 1000px) {
+	.instagram-link {
 		display: flex;
-		flex-direction: column;
-	}
+		flex-direction: row;
+		justify-content: center;
+		padding: 90px;
+		color: #fff;
 
-	.icon {
-		width: 250px;
-		height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
+		@media (max-width: 550px) {
+			padding-left: 40px;
+			padding-bottom: 60px;
 		}
 
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
+		.gallery-title {
+			font-size: var(--font-size-base);
+			font-family: var(--font-rokkitt);
 		}
 
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-	}
-
-
-	.icon1 {
-		width: 250px;
-		height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
+		.pizza-icon {
+			width: 31px;
+			height: 32px;
 		}
 
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
+		.return-home {
+			padding-left: 40px;
+
+			:hover {
+				color: #000;
+			}
+
+			@media (max-width: 1200px) {
+				display: none;
+			}
 		}
 	}
 
-
-	.icon3 {
-		width: 250px;
-		height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.icon4 {
-		width: 250px;
-		height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-
-	.icon6 {
-		width: 250px;
-		height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-}
-
-.instagram-second-column {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 1400px;
-	gap: 2rem;
-	padding-top: 0rem;
-
-	@media (max-width: 1000px) {
+	.instagram-gallery {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		gap: 1.5rem;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-bottom: 3rem;
+
+		a:hover {
+			filter: drop-shadow(0 0 0.75rem #000);
+		}
+
+		.instagram-first-column {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			max-width: 1400px;
+			gap: 2rem;
+			padding-top: 40px;
+
+			@media (max-width: 1000px) {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.icon {
+				width: 250px;
+				height: 250px;
+
+				@media (max-width: 1380px) {
+					width: 170px;
+					height: 170px;
+				}
+
+				@media (max-width: 410px) {
+					width: 150px;
+					height: 150px;
+				}
+			}
+
+			a:nth-child(odd) .icon {
+				@media (min-width: 1000px) {
+					padding-top: 20px;
+				}
+			}
+		}
+
+		.instagram-second-column {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			max-width: 1400px;
+			gap: 2rem;
+			padding-top: 0rem;
+
+			@media (max-width: 1000px) {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.icon {
+				width: 250px;
+				height: 250px;
+
+				@media (max-width: 1380px) {
+					width: 170px;
+					height: 170px;
+				}
+
+				@media (max-width: 410px) {
+					width: 150px;
+					height: 150px;
+				}
+			}
+
+			a:nth-child(odd) .icon {
+				@media (min-width: 1000px) {
+					padding-top: 20px;
+				}
+			}
+		}
 	}
 
-	.icon7 {
-		width: 250px;
-			height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.icon9 {
-		width: 250px;
-			height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.icon10 {
-		width: 250px;
-			height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.icon12 {
-		width: 250px;
-			height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.icon13 {
-		width: 250px;
-			height: 250px;
-
-		@media (max-width: 1380px) {
-			width: 170px;
-			height: 170px;
-		}
-
-		@media (min-width: 1000px) {
-			padding-top: 20px;
-		}
-
-		@media (max-width: 410px) {
-			width: 150px;
-			height: 150px;
-		}
-
-	}
-}
-
-
-}
 	a, a:visited {
 		color: var(--color-white);
 	}
@@ -272,5 +135,4 @@
 	a:hover, a:active {
 		color: var(--color-primary);
 	}
-
 }
