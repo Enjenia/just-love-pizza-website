@@ -44,33 +44,33 @@ const Gallery = () => {
 						<img className='icon' alt='' src='https://i.imgur.com/r6oPONj.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/sfYzaOM.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon1' alt='' src='https://i.imgur.com/sfYzaOM.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/sfYzaOM.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/w2BrmMy.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon3' alt='' src='https://i.imgur.com/w2BrmMy.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/w2BrmMy.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/bX80kvm.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon4' alt='' src='https://i.imgur.com/bX80kvm.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/bX80kvm.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/KurBSTP.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon6' alt='' src='https://i.imgur.com/KurBSTP.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/KurBSTP.jpg' loading='lazy' />
 					</a>
 				</div>
 				<div className='instagram-second-column'>
 					<a href='https://i.imgur.com/uZGwlpT.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon7' alt='' src='https://i.imgur.com/uZGwlpT.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/uZGwlpT.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/fDTliXn.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon9' alt='' src='https://i.imgur.com/fDTliXn.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/fDTliXn.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/8udbDOP.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon10' alt='' src='https://i.imgur.com/8udbDOP.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/8udbDOP.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/owgySY7.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon12' alt='' src='https://i.imgur.com/owgySY7.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/owgySY7.jpg' loading='lazy' />
 					</a>
 					<a href='https://i.imgur.com/IvYDTc9.jpg' target='_blank' rel='noreferrer'>
-						<img className='icon icon13' alt='' src='https://i.imgur.com/IvYDTc9.jpg' loading='lazy' />
+						<img className='icon' alt='' src='https://i.imgur.com/IvYDTc9.jpg' loading='lazy' />
 					</a>
 				</div>
 			</div>
