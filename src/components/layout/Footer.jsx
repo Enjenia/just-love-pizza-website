@@ -7,6 +7,7 @@ import Truck from '../../images/truck.svg';
 import Question from '../../images/question.svg';
 import Logo from '../../images/jlp-final-horiz-2@2x.webp';
 import enjenia from '../../images/enjenia.webp';
+import FoodRating from '../../images/food-rating.svg';
 
 const Footer = () => {
 	const handleClick = useCallback((location) => {
@@ -85,6 +86,9 @@ const Footer = () => {
 					<button className='footer-contact-button button' type='button' onClick={() => handleClick('contact-us')}>
 						CONTACT US
 					</button>
+					<br />
+					<br />
+					<img className='icon' alt='Food hygiene rating 5 out of 5 Very good' src={FoodRating} loading='lazy' />
 				</section>
 			</header>
 
