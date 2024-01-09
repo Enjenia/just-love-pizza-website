@@ -52,22 +52,6 @@
 			}
 		}
 
-		.website {
-			font-size: var(--font-size-lg);
-			font-family: var(--font-ruda);
-
-			@media only screen and (max-width: 800px) {
-				font-size: var(--font-size-sm);
-			}
-
-			@media only screen and (max-width: 600px) {
-				font-size: var(--font-size-sm);
-			}
-
-			@media only screen and (max-width: 450px) {
-				font-size: var(--font-size-xs);
-			}
-		}
 
 		.mobile {
 			font-size: var(--font-size-lg);
@@ -101,6 +85,86 @@
 			@media only screen and (max-width: 450px) {
 				font-size: var(--font-size-xs);
 			}
+		}
+
+		.we-are-located {
+			display: flex;
+			flex-direction: row;
+			font-size: var(--font-size-lg);
+			font-family: var(--font-ruda);
+			align-items: baseline;
+
+			.locate {
+				height: 39px;
+				color: var(--color-white);
+
+				.locate :hover {
+					color: var(--color-primary);
+				}
+
+				@media only screen and (max-width: 1200px) {
+					gap: 30px;
+					height: 30px;
+				}
+
+			}
+
+			@media only screen and (max-width: 800px) {
+						font-size: var(--font-size-sm);
+			}
+
+			@media only screen and (max-width: 600px) {
+						font-size: var(--font-size-sm);
+			}
+
+			@media only screen and (max-width: 450px) {
+				font-size: var(--font-size-xs);
+			}
+
+				.our-location {
+					padding-left: 20px;
+					font-size: var(--font-size-lg);
+					font-family: var(--font-ruda);
+
+					@media only screen and (max-width: 800px) {
+						font-size: var(--font-size-sm);
+					}
+
+					@media only screen and (max-width: 600px) {
+						font-size: var(--font-size-sm);
+					}
+
+					@media only screen and (max-width: 450px) {
+						font-size: var(--font-size-xs);
+					}
+				}
+
+		}
+
+	}
+
+
+	.website {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 4rem;
+		padding-top: 1rem;
+		font-size: var(--font-size-lg);
+		font-family: var(--font-ruda);
+
+		@media only screen and (max-width: 800px) {
+			font-size: var(--font-size-sm);
+		}
+
+		@media only screen and (max-width: 600px) {
+			font-size: var(--font-size-sm);
+			margin-top: 4rem;
+			margin-left: 2rem;
+		}
+
+		@media only screen and (max-width: 450px) {
+			font-size: var(--font-size-xs);
 		}
 	}
 

@@ -10,7 +10,14 @@
 	flex-direction: column;
 	justify-content: center;
 
-	.instagram-link {
+	.return-home {
+		display: none;
+	}
+
+
+
+
+	/*.instagram-link {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -57,7 +64,7 @@
 			filter: drop-shadow(0 0 0.75rem #000);
 		}
 
-		.instagram-first-column {
+	.instagram-first-column {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -134,5 +141,5 @@
 
 	a:hover, a:active {
 		color: var(--color-primary);
-	}
+	}*/
 }

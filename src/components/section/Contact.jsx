@@ -1,8 +1,9 @@
 import React, { useCallback } from 'react';
 import './Contact.scss';
+import located from '../../images/location-sign-svgrepo-com.svg';
 import facebook from '../../images/facebook.svg';
 import instagram from '../../images/instagram.svg';
-import twitter from '../../images/twitter.svg';
+import twitter from '../../images/twitter-x.svg';
 import JLP from '../../images/JLP OVEN 2.webp';
 
 const Contact = () => {
@@ -33,6 +34,20 @@ const Contact = () => {
 						<p className='mobile'>
 							Or call - <a href='tel:+447868017133'>07868017133</a>
 						</p>
+						<div className='we-are-located'>
+							<img className='locate' alt='' src={located} loading='lazy' />
+							<h1 className='our-location'>
+								<a
+									href='https://www.google.com/maps/place/Tamworth/@52.6280212,-1.7694024,12z/data=!4m15!1m8!3m7!1s0x4870a8931830eb41:0xf7e67fb3d4c81cef!2sTamworth!3b1!8m2!3d52.633584!4d-1.691032!16zL20vMDE0bnlt!3m5!1s0x4870a8931830eb41:0xf7e67fb3d4c81cef!8m2!3d52.633584!4d-1.691032!16zL20vMDE0bnlt?entry=ttu'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Tamworth, Staffordshire
+								</a>
+							</h1>
+						</div>
+					</div>
+					<div>
 						<p className='website'>just love social?</p>
 					</div>
 					<div className='social-media-icons'>

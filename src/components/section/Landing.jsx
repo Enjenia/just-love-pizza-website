@@ -1,8 +1,10 @@
 import React, { useCallback } from 'react';
+import PropTypes from 'prop-types';
 import './Landing.scss';
 import Header from '../layout/Header';
+import located from '../../images/location-sign-svgrepo-com.svg';
 
-const Landing = () => {
+const Landing = ({ bannerToggle }) => {
 	const handleClick = useCallback((location) => {
 		const anchor = document.querySelector(`[data-scroll-to='${location}']`);
 		if (anchor) {
@@ -16,7 +18,7 @@ const Landing = () => {
 		}
 	};
 	return (
-		<div className='landing' data-scroll-to='landing'>
+		<div className='landing' data-scroll-to='landing' style={{ paddingTop: bannerToggle ? '2em' : '0em' }}>
 			<Header />
 
 			<section className='landing-body'>
@@ -26,6 +28,10 @@ const Landing = () => {
 					will serve up a variety of tasty pizzas buffet-style for your guests to enjoy. Contact us now to elevate your
 					event with our unforgettable wood-fired pizza.
 				</p>
+				<div className='we-are-located'>
+					<img className='locate' alt='' src={located} loading='lazy' />
+					<h1 className='our-location'>Tamworth, Staffordshire</h1>
+				</div>
 			</section>
 			<section className='return-home'>
 				<button
@@ -39,6 +45,10 @@ const Landing = () => {
 			</section>
 		</div>
 	);
+};
+
+Landing.propTypes = {
+	bannerToggle: PropTypes.bool.isRequired,
 };
 
 export default Landing;

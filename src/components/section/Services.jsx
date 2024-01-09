@@ -28,7 +28,7 @@ const Service = () => {
 						<p className='we-do-items'>BIRTHDAY PARTIES</p>
 						<p className='we-do-items'>FAMILY EVENTS</p>
 						<p className='we-do-items'>CORPORATE EVENTS</p>
-						<p className='we-do-items'>ARTISAN MARKETS</p>
+						<p className='we-do-items'>ARTISAN MARKETS....and MORE!</p>
 					</div>
 					<section className='return-home'>
 						<button
