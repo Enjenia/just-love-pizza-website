@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import './Header.scss';
+import Logo from '../../images/jlp-final-horiz-2@2x.webp';
 
 const Header = () => {
 	const handleClick = useCallback((location) => {
@@ -24,11 +25,7 @@ const Header = () => {
 				onClick={() => handleClick('landing')}
 				onKeyDown={(e) => handleKeyDown(e, 'landing')}
 			>
-				<img
-					className='landing-logo-img'
-					alt='Just Love Pizza, Traditional Wood Fired Pizza'
-					src='https://i.imgur.com/sT5qlAp.png'
-				/>
+				<img className='landing-logo-img' alt='Just Love Pizza, Traditional Wood Fired Pizza' src={Logo} />
 			</section>
 			<nav className='landing-nav'>
 				<span
