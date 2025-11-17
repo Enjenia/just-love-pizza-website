@@ -10,7 +10,7 @@ import './JustLovePizzaWebsite.scss';
 
 const JustLovePizzaWebsite = () => {
 	const [bannerToggle, setBannerToggle] = useState(true);
-
+	//  test build this page
 	return (
 		<div className='just-love-pizza-website'>
 			{bannerToggle ? <Banner setBannerToggle={setBannerToggle} /> : null}
